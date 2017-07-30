@@ -186,8 +186,8 @@ p {
   padding: 20px; }
 
 .benefits-item {
-  width: 33.333%;
-  padding-top: 30px; }
+  width: 30%;
+  padding: 20px 10px 0 0; }
 
 .benefits-item h3 {
   display: inline-flex;
