@@ -133,8 +133,9 @@ h2.header {
 h3 {
   font-family: "Open Sans";
   font-size: 1.4em;
+  font-weight: 600;
   color: #494949;
-  margin: 20px; }
+  margin: 20px 0 20px 0; }
 
 #slogan {
   font-size: 54px;
@@ -174,23 +175,38 @@ p {
   border-radius: 5px;
   margin-right: .1em; }
 
-.icon-container, .step-container {
+.icon-container, .step-container, .benefits-container {
   width: 90%;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 .step-item {
-  text-align: center; }
+  text-align: center;
+  padding: 20px; }
+
+.benefits-item {
+  width: 33.333%;
+  padding-top: 30px; }
+
+.benefits-item h3 {
+  display: inline-flex;
+  font-size: 20px; }
 
 .step-item img {
   width: 100px; }
 
-.step-item p {
-  font-size: 16px;
+.step-item p, .benefits-item p {
+  font-size: 15px;
   width: 300px;
   text-align: justify;
   hyphens: auto;
   line-height: 30px; }
+
+.benefits-item img {
+  width: 30px;
+  padding-right: 10px;
+  color: #e2444e; }
 
 .text-container {
   display: flex;
