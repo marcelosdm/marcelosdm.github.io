@@ -1,9 +1,3 @@
-* {
-  margin: 0 auto;
-  /*font-family: sans-serif;*/
-  font-weight: 400;
-  line-height: 26px; }
-
 .mainHeader {
   height: 60px;
   width: 100%;
@@ -94,8 +88,32 @@ nav .menu {
 .nav-show {
   opacity: 1; }
 
-main {
-  padding-top: 120px; }
+h2.header {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 35px;
+  color: #494949;
+  text-transform: uppercase;
+  margin: 20px 0 30px 0;
+  text-align: center; }
+
+#slogan {
+  font-size: 54px;
+  text-align: center;
+  line-height: 100%;
+  width: 780px;
+  color: #494949;
+  margin-top: 0;
+  padding-top: 0;
+  hyphens: auto;
+  line-height: 1.25em; }
+
+.feature {
+  color: #3379BF; }
+
+.feat-reverse {
+  background-color: #e2444e;
+  color: white; }
 
 .text_tooltip {
   background-color: #5a5858;
@@ -118,73 +136,6 @@ main {
   right: -10px;
   top: 0px; }
 
-.section_info {
-  padding: 60px 60px; }
-
-h2.header {
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-size: 35px;
-  color: #494949;
-  text-transform: uppercase;
-  margin: 20px 0 30px 0;
-  text-align: center; }
-
-h3 {
-  font-family: "Open Sans";
-  font-size: 1.4em;
-  font-weight: 600;
-  color: #494949;
-  margin: 20px 0 20px 0; }
-
-#slogan {
-  font-size: 54px;
-  text-align: center;
-  line-height: 100%;
-  width: 780px;
-  color: #494949;
-  margin-top: 0;
-  padding-top: 0;
-  hyphens: auto;
-  line-height: 1.25em; }
-
-.feature {
-  color: #3379BF; }
-
-.feat-reverse {
-  background-color: #e2444e;
-  color: white; }
-
-p {
-  font-family: "Open Sans";
-  font-variant: normal;
-  font-weight: 400;
-  font-size: 24px;
-  hyphens: auto;
-  text-align: justify;
-  line-height: 35px;
-  color: #494949; }
-
-.paragrafo:first-letter {
-  background-color: #494949;
-  float: left;
-  color: #FFF;
-  font-size: 2em;
-  line-height: 1.25em;
-  padding: 0 .2em;
-  border-radius: 5px;
-  margin-right: .1em; }
-
-.icon-container, .step-container, .benefits-container {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.step-item {
-  text-align: center;
-  padding: 20px; }
-
 .benefits-item {
   width: 30%;
   padding: 20px 10px 0 0; }
@@ -193,27 +144,17 @@ p {
   display: inline-flex;
   font-size: 20px; }
 
-.step-item img {
-  width: 100px; }
-
-.step-item p, .benefits-item p {
-  font-size: 15px;
-  width: 300px;
-  text-align: justify;
-  hyphens: auto;
-  line-height: 30px; }
-
 .benefits-item img {
   width: 30px;
   padding-right: 10px;
   color: #e2444e; }
 
-.text-container {
-  display: flex;
-  width: 90%; }
+.step-item {
+  text-align: center;
+  padding: 20px; }
 
-a {
-  text-decoration: none; }
+.step-item img {
+  width: 100px; }
 
 #btn-contact, #btn-contact-nav {
   text-align: center;
@@ -244,22 +185,6 @@ a {
 #btn-contact:hover, #btn-contact-nav:hover {
   background-color: #E2333D; }
 
-.icon-item {
-  text-align: center; }
-
-.icon-item img {
-  width: 100px; }
-
-.text-item p {
-  font-size: 16px;
-  width: 300px;
-  text-align: justify;
-  hyphens: auto;
-  line-height: 30px; }
-
-@media (min-width: 768px) {
-  .paragrafo:first-letter {
-    font-size: 2.1em; } }
 .parallax-container {
   position: relative;
   overflow: hidden;
@@ -296,6 +221,64 @@ a {
   min-height: 100%;
   transform: translateX(-50%); }
 
+* {
+  margin: 0 auto;
+  /*font-family: sans-serif;*/
+  font-weight: 400;
+  line-height: 26px; }
+
+main {
+  padding-top: 120px; }
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #494949;
+  margin: 20px 0 20px 0; }
+
+.section_info {
+  padding: 60px 60px; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-family: "Open Sans";
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 24px;
+  hyphens: auto;
+  text-align: justify;
+  line-height: 35px;
+  color: #494949; }
+
+.paragrafo:first-letter {
+  background-color: #494949;
+  float: left;
+  color: #FFF;
+  font-size: 2em;
+  line-height: 1.25em;
+  padding: 0 .2em;
+  border-radius: 5px;
+  margin-right: .1em; }
+
+.step-container, .benefits-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.step-item p, .benefits-item p {
+  font-size: 15px;
+  width: 300px;
+  text-align: justify;
+  hyphens: auto;
+  line-height: 30px; }
+
+@media (min-width: 768px) {
+  .paragrafo:first-letter {
+    font-size: 2.1em; } }
 footer {
   background-color: #494949;
   padding: 20px 0;
