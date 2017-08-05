@@ -1,15 +1,17 @@
 .benefits-item {
 	width: 30%;
 	padding: 20px 10px 0 0;
+	
+	h3{
+		display: inline-flex;
+		font-size: 20px;
+	}
+	
+	img {
+		width: 30px;
+		padding-right: 10px;
+		color: $second-color;
+	}
 }
 
-.benefits-item h3 {
-	display: inline-flex;
-	font-size: 20px;
-}
 
-.benefits-item img {
-	width: 30px;
-	padding-right: 10px;
-	color: $second-color;
-}

@@ -31,10 +31,10 @@ $(document).ready(function(){
 	// });
 
 	$('nav').mouseover(function(){
-		$('.nav-itens').addClass('nav-show');
+		$('.btn-more-itens').addClass('btn-more-show');
 	});
 	$('nav').mouseout(function(){
-		$('.nav-itens').removeClass('nav-show');
+		$('.btn-more-itens').removeClass('btn-more-show');
 	});
 
 	$(document).scroll(function(){

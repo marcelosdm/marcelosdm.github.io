@@ -18,6 +18,10 @@
 	height: 60px;
 	font-size: 18px;
 	margin: 50px auto 10px;
+
+	&:hover {
+		background-color: #E2333D;
+	}
 }
 
 #btn-contact-nav {
@@ -25,8 +29,8 @@
 	height: 45px;
 	font-size: 14px;
 	margin-left: 100px;
-}
 
-#btn-contact:hover, #btn-contact-nav:hover {
-	background-color: #E2333D;
+	&:hover {
+		background-color: #E2333D;
+	}
 }

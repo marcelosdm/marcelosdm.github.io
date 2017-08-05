@@ -1,77 +1,21 @@
 @import 'variaveis';
 
-@import 'layout/header';
-@import 'layout/slogan';
-@import 'layout/tooltip';
+@import 'content/typography';
+@import 'content/containers';
+
+@import 'global/global';
+
 @import 'layout/benefits-container';
-@import 'layout/step-container';
 @import 'layout/buttons';
 @import 'layout/parallax';
+@import 'layout/slogan';
+@import 'layout/step-container';
+@import 'layout/tooltip';
 
-* {
-	margin: 0 auto;
-	/*font-family: sans-serif;*/
-	font-weight: 400;
-	line-height: 26px;
-}
+@import 'navigation/footer';
+@import 'navigation/header';
+@import 'navigation/menu';
 
-main {
-	padding-top: 120px
-}
-
-h3 {
-	font-family: $title-font;
-	font-size: 1.4em;
-	font-weight: 600;
-	color: $feat-gray;
-	margin: 20px 0 20px 0;
-}
-
-.section_info {
-	padding: 60px 60px;
-}
-
-a {
-	text-decoration: none;
-}
-
-p {
-	font-family: $body-font;
-	font-variant: normal ;
-	font-weight: 400 ;
-	font-size: 24px ;
-	hyphens: auto;
-	text-align: justify;
-	line-height: 35px;
-	color: $feat-gray;
-}
-
-.paragrafo:first-letter {
-	background-color: $feat-gray;
-	float: left;
-	color: #FFF;
-	font-size: 2em;
-	line-height: 1.25em;
-	padding: 0 .2em;
-	border-radius: 5px;
-	margin-right: .1em;
-}
-
-.step-container, .benefits-container {
-	width: 90%;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	// background-color: silver;
-}
-
-.step-item p, .benefits-item p {
-	font-size: 15px;
-	width: 300px;
-	text-align: justify;
-	hyphens: auto;
-	line-height: 30px;	
-}
 
 // .text-container {
 // 	display: flex;
@@ -96,19 +40,6 @@ p {
 // 	line-height: 30px;	
 // }
 
-@media (min-width: 768px){
-
-	.paragrafo:first-letter{
-		font-size: 2.1em;
-	}
-
-}
 
 
-footer {
-	background-color: $feat-gray;
-	padding: 20px 0;
-	text-align: center;
-	color: #fff;
-}
 
