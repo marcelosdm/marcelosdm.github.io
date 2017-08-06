@@ -34,3 +34,38 @@
 		background-color: #E2333D;
 	}
 }
+
+.btn-more {
+	background-color: $main-color;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	height: 50px;
+	line-height: 60px;
+	text-align: center;
+	width: 50px;
+}
+
+.btn-more-itens {
+	position: absolute;
+	top: -210px;
+	right: 6px;
+	opacity: 0;
+    transition: all .3s;
+    
+    a {
+        display: block;
+        margin: 10px 0;
+        color: #fff;
+        background-color: $main-color;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+.btn-more-show {
+	opacity: 1;
+}
