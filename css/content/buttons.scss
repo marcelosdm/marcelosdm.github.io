@@ -25,10 +25,13 @@
 }
 
 #btn-contact-nav {
-	display: initial;
-	height: 45px;
-	font-size: 14px;
-	margin-left: 100px;
+		// display: initial;
+		margin-right: 10px;
+	@media(min-width: $phones){
+		height: 45px;
+		font-size: 14px;
+		// margin-left: 100px;
+	}
 
 	&:hover {
 		background-color: #E2333D;

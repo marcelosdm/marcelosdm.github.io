@@ -21,10 +21,11 @@
     background-color: #E2333D; }
 
 #btn-contact-nav {
-  display: initial;
-  height: 45px;
-  font-size: 14px;
-  margin-left: 100px; }
+  margin-right: 10px; }
+  @media (min-width: 480px) {
+    #btn-contact-nav {
+      height: 45px;
+      font-size: 14px; } }
   #btn-contact-nav:hover {
     background-color: #E2333D; }
 
@@ -134,7 +135,13 @@ main {
   padding-top: 120px; }
 
 .section_info {
-  padding: 60px 60px; }
+  padding: 5%; }
+  @media (min-width: 480px) {
+    .section_info {
+      padding: 10%; } }
+  @media (min-width: 768px) {
+    .section_info {
+      padding: 60px 60px; } }
 
 a {
   text-decoration: none; }
@@ -185,15 +192,23 @@ a {
     line-height: 40px; }
 
 #slogan {
-  font-size: 54px;
+  font-size: 30px;
+  width: 280px;
   text-align: center;
   line-height: 100%;
-  width: 780px;
-  color: #494949;
-  margin-top: 0;
-  padding-top: 0;
-  hyphens: auto;
-  line-height: 1.25em; }
+  margin-top: 0; }
+  @media (min-width: 480px) {
+    #slogan {
+      font-size: 35px;
+      width: 100%; } }
+  @media (min-width: 768px) {
+    #slogan {
+      font-size: 54px;
+      line-height: 100%;
+      width: 780px;
+      color: #494949;
+      hyphens: auto;
+      line-height: 1.25em; } }
 
 .feature {
   color: #3379BF; }
@@ -236,34 +251,36 @@ footer {
   color: #fff; }
 
 .mainHeader {
+  width: 300px;
   height: 60px;
-  width: 100%;
   background-color: #fff;
   border-bottom: solid #3379BF;
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  padding: 20px 10px;
   position: fixed;
   z-index: 1;
   transition: all .3s; }
+  @media (min-width: 480px) {
+    .mainHeader {
+      width: 100%; } }
 
 .header_fixed {
   /*font-size: 0.7em;*/
   height: 20px; }
 
 .container-top {
-  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/ }
+  justify-content: space-between; }
 
 .mainHeader-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-right: 20px; }
+  display: none; }
+  @media (min-width: 768px) {
+    .mainHeader-nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: 20px; } }
 
 .mainHeader-nav-link {
   display: none; }

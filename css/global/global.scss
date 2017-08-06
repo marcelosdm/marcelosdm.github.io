@@ -12,7 +12,14 @@ main {
 }
 
 .section_info {
-	padding: 60px 60px;
+	padding: 5%;
+	
+	@media(min-width: $phones){
+		padding: 10%;
+	}
+	@media(min-width: $tablets){
+		padding: 60px 60px;
+	}
 }
 
 a {

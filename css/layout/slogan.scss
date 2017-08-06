@@ -1,13 +1,27 @@
 #slogan {
-	font-size: 54px;
+
+	font-size: 30px;
+	width: 280px;
 	text-align: center;
 	line-height: 100%;
-	width: 780px;
-	color: $feat-gray;
 	margin-top: 0;
-	padding-top: 0;
-	hyphens: auto;
-	line-height: 1.25em;
+
+	@media(min-width: $phones){
+		font-size: 35px;
+		width: 100%;
+	}
+	
+	@media(min-width: $tablets) {
+		font-size: 54px;
+		// text-align: center;
+		line-height: 100%;
+		width: 780px;
+		color: $feat-gray;
+		// margin-top: 0;
+		// padding-top: 0;
+		hyphens: auto;
+		line-height: 1.25em;
+	}
 }
 
 .feature {
