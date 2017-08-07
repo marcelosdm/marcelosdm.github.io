@@ -1,0 +1,17 @@
+form label {
+		font-family: $body-font;
+		color: $feat-gray;
+		font-size: 15px;
+		width: 300px;
+		text-align: justify;
+		hyphens: auto;
+		line-height: 30px;	
+}
+
+#contact-form {
+    @media(min-width: $tablets){
+        display: flex;
+        width: 400px;
+        flex-wrap: wrap;
+    }
+}

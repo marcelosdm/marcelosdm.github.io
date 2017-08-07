@@ -71,6 +71,21 @@
     hyphens: auto;
     line-height: 30px; }
 
+form label {
+  font-family: "Open Sans";
+  color: #494949;
+  font-size: 15px;
+  width: 300px;
+  text-align: justify;
+  hyphens: auto;
+  line-height: 30px; }
+
+@media (min-width: 768px) {
+  #contact-form {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap; } }
+
 .logo {
   width: 115px; }
   @media (min-width: 768px) {

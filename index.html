@@ -150,23 +150,40 @@
 				</div>
 				<div class="contact-container">
 					<div class="contact-item">
-						<p><img src="img/icons/ic_phone_black_24px.svg">Tel/WhatsApp: (16) 91234-1234</p>
-						<p><img src="img/icons/ic_email_black_24px.svg">Email: hello@youcan.com</p>
+						<form action="envia-contato.php" method="post" id="contact-form">
+							<label for="nome">Nome</label>
+							<input type="text" name="name" placeholder="Nome Completo" required>
+							
+							<label for="phone">Telefone</label>
+							<input type="tel" name="phone" placeholder="(16) 12345-6789" required>
+							
+							<label for="email">Email</label>
+							<input type="email" name="email" placeholder="seu@email.com">
+							
+							<label for="message">Mensagem</label>
+							<textarea name="message" id="message" placeholder="Escreva aqui sua mensagem!"></textarea>
+							
+							<input type="submit" value="Enviar" id="btn-contact">
+							
+						</form>
+						
+						<!-- <p><img src="img/icons/ic_phone_black_24px.svg">Tel/WhatsApp: (16) 91234-1234</p>
+							<p><img src="img/icons/ic_email_black_24px.svg">Email: hello@youcan.com</p> -->
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="parallax-container">
-				<div class="parallax"><img src="img/contact.jpeg"></div>
-			</div>
-		</section>
-	</main>
-	
-	<footer>
-		<p>YouCan Language Courses</p>
-	</footer>
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="js/parallax.js"></script>
-	<script src="js/script.js"></script>
-</body>
-</html>
+				<div class="parallax-container">
+					<div class="parallax"><img src="img/contact.jpeg"></div>
+				</div>
+			</section>
+		</main>
+		
+		<footer>
+			<p>YouCan Language Courses</p>
+		</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/parallax.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+	</html>
