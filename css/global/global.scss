@@ -1,5 +1,5 @@
 * {
-	@media(min-width: $tablets){
+	@media(min-width: $tablet){
 		margin: 0 auto;
 		/*font-family: sans-serif;*/
 		font-weight: 400;
@@ -14,10 +14,10 @@ main {
 .section_info {
 	padding: 5%;
 	
-	@media(min-width: $phones){
+	@media(min-width: $phone){
 		padding: 10%;
 	}
-	@media(min-width: $tablets){
+	@media(min-width: $tablet){
 		padding: 60px 60px;
 	}
 }

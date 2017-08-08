@@ -1,6 +1,6 @@
 .mainHeader-nav {
 	display: none;
-	@media(min-width: $tablets){
+	@media(min-width: $tablet){
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
@@ -11,7 +11,7 @@
 
 .mainHeader-nav-link {
 	display: none;
-	@media(min-width: $tablets){
+	@media(min-width: $tablet){
 		padding: 15px;
 		color: #494949;
 		text-decoration: none;

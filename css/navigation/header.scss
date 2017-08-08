@@ -8,7 +8,7 @@
 	z-index: 1;
 	transition: all .3s;
 	
-	@media(min-width: $phones){
+	@media(min-width: $phone){
 		width: 100%;
 	}
 }

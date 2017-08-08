@@ -6,12 +6,12 @@
 	line-height: 100%;
 	margin-top: 0;
 
-	@media(min-width: $phones){
+	@media(min-width: $phone){
 		font-size: 35px;
 		width: 100%;
 	}
 	
-	@media(min-width: $tablets) {
+	@media(min-width: $tablet) {
 		font-size: 54px;
 		// text-align: center;
 		line-height: 100%;
