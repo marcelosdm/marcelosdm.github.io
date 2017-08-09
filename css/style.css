@@ -109,18 +109,18 @@ form label, form input, form textarea {
   font-family: "Open Sans"; }
 
 .logo {
-  width: 115px; }
+  width: 115px;
+  transition: all .3s; }
   @media (min-width: 768px) {
     .logo {
-      width: 150px;
-      transition: all .3s; } }
+      width: 150px; } }
 
 .logo_fixed {
-  width: 115px; }
+  width: 85px;
+  transition: all .3s; }
   @media (min-width: 768px) {
     .logo_fixed {
-      width: 75px;
-      transition: all .3s; } }
+      width: 75px; } }
 
 h3 {
   font-family: "Open Sans";
@@ -300,9 +300,10 @@ footer {
     .mainHeader {
       width: 100%; } }
 
-.header_fixed {
-  /*font-size: 0.7em;*/
-  height: 20px; }
+@media (min-width: 768px) {
+  .header_fixed {
+    height: 30px;
+    padding: 20px 10px 40px 10px; } }
 
 .container-top {
   margin: 0 auto;

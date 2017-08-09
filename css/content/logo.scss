@@ -1,18 +1,18 @@
 .logo {
 	width: 115px;
+    transition: all .3s;
 
 	@media (min-width: $tablet) {
 		width: 150px;
-		transition: all .3s;
 	}
 }
 
 .logo_fixed {
-    width: 115px;
+    width: 85px;
+    transition: all .3s;
     
     @media (min-width: $tablet) {
         width: 75px;
-        transition: all .3s;
     }
 }
 
