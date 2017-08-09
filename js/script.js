@@ -30,10 +30,10 @@ $(document).ready(function(){
 	// 	return false
 	// });
 
-	$('nav').mouseover(function(){
+	$('.nav-mobile').mouseover(function(){
 		$('.btn-more-itens').addClass('btn-more-show');
 	});
-	$('nav').mouseout(function(){
+	$('.nav-mobile').mouseout(function(){
 		$('.btn-more-itens').removeClass('btn-more-show');
 	});
 

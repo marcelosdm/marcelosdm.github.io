@@ -1,0 +1,47 @@
+.nav-mobile {
+	position: fixed;
+	z-index: 2;
+	bottom: 25px;
+	right: 25px;
+	@media(min-width: $tablet){
+	}
+}
+
+.btn-more {
+	background-color: $main-color;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	height: 56px;
+	width: 56px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.btn-more img {
+    width: 30px;
+}
+
+.btn-more-itens {
+	position: absolute;
+	top: -210px;
+	right: 6px;
+	opacity: 0;
+    transition: all .3s;
+    
+    a {
+        display: block;
+        margin: 10px 0;
+        color: #fff;
+        background-color: $main-color;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+.btn-more-show {
+	opacity: 1;
+}
