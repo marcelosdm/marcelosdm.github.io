@@ -23,7 +23,7 @@ $(document).ready(function(){
 		}, 500);
 		return false;
 	});
-	// $('.mainHeader-nav-link').click(function(){
+	// $('.header-nav-link').click(function(){
 	// 	page.animate({
 	// 		scrollTop: $( $.attr(this, 'href') ).offset().top
 	// 	}, 500);

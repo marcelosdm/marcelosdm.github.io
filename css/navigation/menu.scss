@@ -1,4 +1,4 @@
-.mainHeader-nav {
+.header-nav {
 	display: none;
 	@media(min-width: $tablet){
 		display: flex;
@@ -9,7 +9,7 @@
 }
 
 
-.mainHeader-nav-link {
+.header-nav-link {
 	display: none;
 	@media(min-width: $tablet){
 		padding: 15px;
@@ -23,7 +23,7 @@
 }
 
 @media(min-width: 769px){
-	.mainHeader-nav-link:hover {
+	.header-nav-link:hover {
 		color: $main-color;
 	}
 }
