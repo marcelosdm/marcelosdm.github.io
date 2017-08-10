@@ -1,4 +1,4 @@
-#btn-contact, #btn-contact-nav {
+.btn-contact, #btn-contact-nav {
 	text-align: center;
 	font-family: Open Sans;
 	font-weight: 600;
@@ -13,11 +13,14 @@
 	text-shadow: none;
 }
 
-#btn-contact {
+.btn-contact {
 	display: block;
 	height: 60px;
 	font-size: 18px;
-	margin: 50px auto 10px;
+	margin: 20px auto 10px;
+	@media(min-width: $tablet){
+		margin: 50px auto 10px;
+	}
 
 	&:hover {
 		background-color: #E2333D;

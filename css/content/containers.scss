@@ -7,10 +7,14 @@
 	
 	p {
 		font-size: 15px;
-		width: 300px;
 		text-align: justify;
 		hyphens: auto;
-		line-height: 30px;	
+		line-height: 30px;
+		width: 90%;	
+
+		@media(min-width: $tablet){
+			width: 300px;
+		}
 	}
 }
 
