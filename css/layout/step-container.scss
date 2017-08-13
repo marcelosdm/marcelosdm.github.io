@@ -1,5 +1,10 @@
 .step-item {
 	text-align: center;
+	
+	h3 {
+		margin-left: 20px;
+	}
+
 	p {
 		margin-left: 10%;
 	}
@@ -11,5 +16,6 @@
 
 .step-item img {
 	width: 100px;
+	padding-left: 10%;
 }
 

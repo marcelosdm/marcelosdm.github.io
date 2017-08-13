@@ -16,7 +16,8 @@
   display: block;
   height: 60px;
   font-size: 18px;
-  margin: 20px auto 10px; }
+  margin: 20px auto 10px;
+  width: 100%; }
   @media (min-width: 768px) {
     .btn-contact {
       margin: 50px auto 10px; } }
@@ -198,11 +199,14 @@ a {
   text-decoration: none; }
 
 .benefits-item {
-  width: 30%;
   padding: 20px 10px 0 0; }
+  @media (min-width: 480px) {
+    .benefits-item {
+      width: 30%; } }
   .benefits-item h3 {
     display: inline-flex;
-    font-size: 20px; }
+    font-size: 20px;
+    width: 280px; }
   .benefits-item img {
     width: 30px;
     padding-right: 10px;
@@ -277,6 +281,8 @@ a {
 
 .step-item {
   text-align: center; }
+  .step-item h3 {
+    margin-left: 20px; }
   .step-item p {
     margin-left: 10%; }
   @media (min-width: 768px) {
@@ -284,7 +290,8 @@ a {
       padding: 20px; } }
 
 .step-item img {
-  width: 100px; }
+  width: 100px;
+  padding-left: 10%; }
 
 .text_tooltip {
   background-color: #5a5858;
