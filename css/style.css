@@ -183,8 +183,9 @@ p {
     font-weight: 400;
     line-height: 26px; } }
 
-main {
-  padding-top: 120px; }
+@media (min-width: 768px) {
+  main {
+    padding-top: 120px; } }
 
 .section_info {
   padding: 5%; }
@@ -320,17 +321,17 @@ footer {
   color: #fff; }
 
 .mainHeader {
-  width: 300px;
+  width: 100%;
+  padding: 20px 0;
   height: 60px;
   background-color: #fff;
   border-bottom: solid #3379BF;
-  padding: 20px 10px;
-  position: fixed;
   z-index: 1;
   transition: all .3s; }
-  @media (min-width: 480px) {
+  @media (min-width: 768px) {
     .mainHeader {
-      width: 100%; } }
+      padding: 20px 10px;
+      position: fixed; } }
 
 @media (min-width: 768px) {
   .header_fixed {

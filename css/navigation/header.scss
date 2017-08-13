@@ -1,17 +1,17 @@
 
 .mainHeader{
-	
-	width: 300px;
+	width: 100%;
+	padding: 20px 0;
 	height: 60px;
 	background-color: #fff;
 	border-bottom: solid $main-color;
-	padding: 20px 10px;
-	position: fixed;
 	z-index: 1;
 	transition: all .3s;
 	
-	@media(min-width: $phone){
-		width: 100%;
+	@media(min-width: $tablet){
+		// width: 100%;
+		padding: 20px 10px;
+		position: fixed;
 	}
 }
 
