@@ -12,8 +12,11 @@ h2.header {
 	font-size: 35px;
 	color: $feat-grey;
 	text-transform: uppercase;
-	margin: 20px 0 30px 0;
 	text-align: center;
+	margin: 10px 0 15px 0;
+	@media(min-width: $tablet) {
+		margin: 20px 0 30px 0;
+	}
 }
 
 p {

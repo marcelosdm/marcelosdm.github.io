@@ -113,10 +113,10 @@ form label {
 form input {
   height: 40px; }
 form textarea {
-  height: 200px; }
+  height: 100px; }
 form input, form textarea {
   display: block;
-  width: 100%;
+  width: 95%;
   font-size: 17px;
   border-radius: 4px;
   border: 1px solid #ddd;
@@ -151,8 +151,11 @@ h2.header {
   font-size: 35px;
   color: #494949;
   text-transform: uppercase;
-  margin: 20px 0 30px 0;
-  text-align: center; }
+  text-align: center;
+  margin: 10px 0 15px 0; }
+  @media (min-width: 768px) {
+    h2.header {
+      margin: 20px 0 30px 0; } }
 
 p {
   font-family: "Open Sans";
