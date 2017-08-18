@@ -124,6 +124,10 @@ form input, form textarea {
 form label, form input, form textarea {
   font-family: "Open Sans"; }
 
+.feat-reverse {
+  background-color: #3379BF;
+  color: white; }
+
 .logo {
   width: 115px;
   transition: all .3s; }
@@ -180,6 +184,12 @@ p {
     .paragrafo:first-letter {
       font-size: 2.1em; } }
 
+#contact p {
+  font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  text-align: center; }
+
 @media (min-width: 768px) {
   * {
     margin: 0 auto;
@@ -230,7 +240,8 @@ a {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    transform: translateX(-50%); }
+    transform: translateX(-50%);
+    zoom: 0.65; }
 
 .parallax-container {
   position: relative;
@@ -278,10 +289,6 @@ a {
 
 .feature {
   color: #3379BF; }
-
-.feat-reverse {
-  background-color: #e2444e;
-  color: white; }
 
 .step-item {
   text-align: center; }
