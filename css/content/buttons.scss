@@ -19,8 +19,14 @@
 	font-size: 18px;
 	margin: 20px auto 10px;
 	width: 100%;
-	@media(min-width: $tablet){
+	
+	@media(min-width: $tablet) {
 		margin: 50px auto 10px;
+		width: 250px;
+	}
+
+	@media(min-width: $desktop) {
+		width: 200px;
 	}
 
 	&:hover {

@@ -20,7 +20,11 @@
   width: 100%; }
   @media (min-width: 768px) {
     .btn-contact {
-      margin: 50px auto 10px; } }
+      margin: 50px auto 10px;
+      width: 250px; } }
+  @media (min-width: 992px) {
+    .btn-contact {
+      width: 200px; } }
   .btn-contact:hover {
     background-color: #E2333D; }
 
