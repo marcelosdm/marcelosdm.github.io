@@ -49,6 +49,4 @@ $(document).ready(function(){
 			$('.container-top img').addClass('logo');
 		};
 	});
-
-
 })

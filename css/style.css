@@ -28,14 +28,12 @@
   .btn-contact:hover {
     background-color: #E2333D; }
 
-#btn-contact-nav {
-  margin-right: 10px; }
-  @media (min-width: 480px) {
-    #btn-contact-nav {
-      height: 45px;
-      font-size: 14px; } }
-  #btn-contact-nav:hover {
-    background-color: #E2333D; }
+@media (min-width: 480px) {
+  #btn-contact-nav {
+    height: 45px;
+    font-size: 14px; } }
+#btn-contact-nav:hover {
+  background-color: #E2333D; }
 
 .step-container, .benefits-container {
   width: 90%;
@@ -151,6 +149,70 @@ form label, form input, form textarea {
   @media (min-width: 768px) {
     .logo_fixed {
       width: 75px; } }
+
+@media (max-width: 600px) {
+  .barra-nav {
+    background: #f0f0f0;
+    padding: 1em;
+    margin: 0;
+    height: 100%;
+    width: 90%;
+    max-width: 320px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -90%;
+    transition: left 0.3s ease-out; }
+
+  .menu-ativo .barra-nav {
+    right: 0; }
+
+  .menu-principal li {
+    padding: 1em 0;
+    width: 100%; }
+
+  .menu-ativo:after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4); } }
+@media not all and (max-width: 600px) {
+  .menu-abrir,
+  .menu-fechar {
+    display: none; } }
+.menu-abrir,
+.menu-fechar {
+  background: none;
+  border: 0;
+  outline: 0;
+  -webkit-apperance: none;
+  font-size: 1.6em;
+  text-indent: -999em; }
+
+.menu-abrir {
+  height: 0;
+  width: .75em;
+  padding-top: .125em;
+  border-top: .375em double #000;
+  border-bottom: .125em solid #000;
+  vertical-align: middle;
+  margin: 0.5em; }
+
+.menu-fechar {
+  position: relative;
+  height: 1em;
+  width: 1em; }
+
+.menu-fechar:before {
+  content: '\00D7';
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: 0; }
 
 /* The Modal (background) */
 .modal {
@@ -324,6 +386,9 @@ a {
     min-height: 100%;
     transform: translateX(-50%);
     zoom: 0.65; }
+
+#parallax-contact img {
+  zoom: 0.35; }
 
 .parallax-container {
   position: relative;

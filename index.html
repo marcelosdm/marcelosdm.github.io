@@ -26,6 +26,7 @@
 			</a>
 			
 			<nav class="header-nav">
+				<button class="menu-fechar">Fecha Menu</button>
 				<a href="#top" class="header-nav-link tooltip">Home</a>
 				<a href="#about" class="header-nav-link tooltip">Matricule-se</a>
 				<a href="#courses" class="header-nav-link tooltip">Cursos</a>
@@ -35,6 +36,8 @@
 			<a href="#contact" class="tooltip">
 				<button id="btn-contact-nav">Comece já</button>
 			</a>
+			
+			<button class="menu-abrir">Abre Menu</button>
 		</div>
 	</header>
 	
@@ -115,102 +118,86 @@
 							<h3><img src="img/icons/ic_school_black_24px.svg">Professora qualificada</h3>
 							<p>Além de sua formação acadêmica, possui conhecimento prático na língua inglesa. <span id="open-modal" class="feature">Clique aqui e saiba mais</span></p>
 						</div>
-						<!-- The Modal -->
-						<div id="myModal" class="modal">
-							
-							<!-- Modal content -->
-							<div class="modal-content">
-								<div class="modal-header">
-									<span class="close">&times;</span>
-									<h3>Professora Qualificada</h3>
-								</div>
-								<div class="modal-body">
-									<p>Some text in the Modal Body</p>
-									<p>Some other text...</p>
-								</div>
-								<div class="modal-footer">
-									<h3>Modal Footer</h3>
-								</div>
-							</div>
-							
-						</div>						<div class="benefits-item">
-							<h3><img src="img/icons/ic_schedule_black_24px.svg">Aproveite seu tempo</h3>
-							<p>Abordagens e programas focados e eficazes – sem perda de tempo!</p>
-						</div>
-						<div class="benefits-item">
-							<h3><img src="img/icons/ic_star_black_24px.svg">Cursos personalizados</h3>
-							<p>Cursos de inglês personalizados para adultos e adolescentes.</p>
-						</div>
-						<div class="benefits-item">
-							<h3><img src="img/icons/ic_person_add_black_24px.svg">Grupos exclusivos</h3>
-							<p>Inglês para pequenos grupos (no máximo 3 alunos por horário).</p>
-						</div>
-						<div class="benefits-item">
-							<h3><img src="img/icons/ic_import_contacts_black_24px.svg">Material didático importado</h3>
-							<p>Livros importados de editoras renomadas, e atualização constante do catálogo.</p>
-						</div>
-						<div class="benefits-item">
-							<h3><img src="img/icons/ic_mode_comment_black_24px.svg">Aprenda de maneira prazerosa</h3>
-							<p>Foco em conversação e fluência. Ambiente profissional e amigável.</p>
-						</div>
-					</div>
-					<a href="#contact" class="tooltip">
-						<button class="btn-contact">Seja um aluno</button>
-					</a>
-				</div>
-			</div>
-			<div class="parallax-container">
-				<div class="parallax"><img src="img/contact.jpeg"></div>
-				<p>Entre em contato e conheça nosso método personalizado</p>
-			</div>
-		</section>
-		<section>
-			<div id="contact" class="section_info">
-				<div class="row container">
-					<h2 class="header">Fale Conosco</h2>
-					<p>Entre em contato pelo telefone <span class="feat-reverse">(16) 91234 5678</span>, ou se preferir preencha o formulário abaixo.</p>
-					<!-- <p>Preencha nosso formulário de contato, ou se preferir, entre em contato pelo nosso telefone:</p> -->
-				</div>
-				<div class="contact-container">
-					<div class="contact-item">
-						<form action="envia-contato.php" method="post" id="contact-form">
-							<div class="form-group">
-								<label for="nome">Nome</label>
-								<input type="text" name="name" placeholder="Nome Completo" required>
-							</div>
-							<div class="form-group">
-								<label for="phone">Telefone</label>
-								<input type="tel" name="phone" placeholder="(16) 12345-6789" required>
-							</div>
-							<div class="form-group">
-								<label for="email">Email</label>
-								<input type="email" name="email" placeholder="seu@email.com" required>
-							</div>
-							<div class="form-group">
-								<label for="message">Mensagem</label>
-								<textarea name="message" id="message" placeholder="Escreva aqui sua mensagem!" required></textarea>
-							</div>
-							<input type="submit" value="Enviar" class="btn-contact">
-						</form>
 						
-						<!-- <p><img src="img/icons/ic_phone_black_24px.svg">Tel/WhatsApp: (16) 91234-1234</p>
-							<p><img src="img/icons/ic_email_black_24px.svg">Email: hello@youcan.com</p> -->
-						</div>
+					</div>						
+					<div class="benefits-item">
+						<h3><img src="img/icons/ic_schedule_black_24px.svg">Aproveite seu tempo</h3>
+						<p>Abordagens e programas focados e eficazes – sem perda de tempo!</p>
+					</div>
+					<div class="benefits-item">
+						<h3><img src="img/icons/ic_star_black_24px.svg">Cursos personalizados</h3>
+						<p>Cursos de inglês personalizados para adultos e adolescentes.</p>
+					</div>
+					<div class="benefits-item">
+						<h3><img src="img/icons/ic_person_add_black_24px.svg">Grupos exclusivos</h3>
+						<p>Inglês para pequenos grupos (no máximo 3 alunos por horário).</p>
+					</div>
+					<div class="benefits-item">
+						<h3><img src="img/icons/ic_import_contacts_black_24px.svg">Material didático importado</h3>
+						<p>Livros importados de editoras renomadas, e atualização constante do catálogo.</p>
+					</div>
+					<div class="benefits-item">
+						<h3><img src="img/icons/ic_mode_comment_black_24px.svg">Aprenda de maneira prazerosa</h3>
+						<p>Foco em conversação e fluência. Ambiente profissional e amigável.</p>
 					</div>
 				</div>
-				<!-- <div class="parallax-container">
-					<div class="parallax"><img src="img/contact.jpeg"></div>
-				</div> -->
-			</section>
-		</main>
-		
-		<footer>
-			<p>YouCan Language Courses</p>
-		</footer>
-		
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="js/parallax.js"></script>
-		<script src="js/script.js"></script>
-		<script src="js/modal.js"></script>
-	</body>
-	</html>
+				<a href="#contact" class="tooltip">
+					<button class="btn-contact">Seja um aluno</button>
+				</a>
+			</div>
+		</div>
+		<div class="parallax-container">
+			<div class="parallax" id="parallax-contact"><img src="img/phone-box.jpg"></div>
+			<p>Entre em contato e conheça nosso método</p>
+		</div>
+	</section>
+	<section>
+		<div id="contact" class="section_info">
+			<div class="row container">
+				<h2 class="header">Fale Conosco</h2>
+				<p>Entre em contato pelo telefone <span class="feat-reverse">(16) 91234 5678</span>, ou se preferir preencha o formulário abaixo.</p>
+				<!-- <p>Preencha nosso formulário de contato, ou se preferir, entre em contato pelo nosso telefone:</p> -->
+			</div>
+			<div class="contact-container">
+				<div class="contact-item">
+					<form action="envia-contato.php" method="post" id="contact-form">
+						<div class="form-group">
+							<label for="nome">Nome</label>
+							<input type="text" name="name" placeholder="Nome Completo" required>
+						</div>
+						<div class="form-group">
+							<label for="phone">Telefone</label>
+							<input type="tel" name="phone" placeholder="(16) 12345-6789" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" name="email" placeholder="seu@email.com" required>
+						</div>
+						<div class="form-group">
+							<label for="message">Mensagem</label>
+							<textarea name="message" id="message" placeholder="Escreva aqui sua mensagem!" required></textarea>
+						</div>
+						<input type="submit" value="Enviar" class="btn-contact">
+					</form>
+					
+					<!-- <p><img src="img/icons/ic_phone_black_24px.svg">Tel/WhatsApp: (16) 91234-1234</p>
+						<p><img src="img/icons/ic_email_black_24px.svg">Email: hello@youcan.com</p> -->
+					</div>
+				</div>
+			</div>
+			<!-- <div class="parallax-container">
+				<div class="parallax"><img src="img/contact.jpeg"></div>
+			</div> -->
+		</section>
+	</main>
+	
+	<footer>
+		<p>YouCan Language Courses</p>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/menu.js"></script>
+</body>
+</html>
