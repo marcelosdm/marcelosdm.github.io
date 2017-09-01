@@ -35,6 +35,7 @@
 }
 
 #btn-contact-nav {
+	display: none;
 		// display: initial;
 		// margin-right: 10px;
 	@media(min-width: $phone){
@@ -42,7 +43,10 @@
 		font-size: 14px;
 		// margin-left: 100px;
 	}
-
+	@media(min-width: $tablet){
+		display: inline-block;
+	}		
+	
 	&:hover {
 		background-color: #E2333D;
 	}
