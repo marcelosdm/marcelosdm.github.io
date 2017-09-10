@@ -1,19 +1,24 @@
 .nav-mobile {
-    display: none;
-    transition: .15s ease-out;
+    // display: none;
+    // transition: height .5s ease-out;
+    max-height: 0;
+    overflow: hidden;
 }
 
 .nav-mobile-show {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    justify-content: space-around;
     background-color: white;
     position: relative;
-    transition: all .5s;
-    color: black;
-    transition: .15s ease-out;
+    transition: max-height .2s ease-out;
+    height: 350px;
+    max-height: 350px;
 }
 
 .mobile-nav-link {
-    color: black;
+    color: $feat-grey;
+    font-family: $body-font;
+    text-decoration: none;
+    text-transform: uppercase;
 }

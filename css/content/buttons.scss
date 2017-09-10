@@ -1,4 +1,4 @@
-.btn-contact, #btn-contact-nav {
+.btn-contact, #btn-contact-nav, #btn-mobile-nav {
 	text-align: center;
 	font-family: Open Sans;
 	font-weight: 600;
@@ -30,7 +30,7 @@
 	}
 
 	&:hover {
-		background-color: #E2333D;
+		background-color: $second-color-hover;
 	}
 }
 
@@ -48,7 +48,25 @@
 	}		
 	
 	&:hover {
-		background-color: #E2333D;
+		background-color: $second-color-hover;
+	}
+}
+
+#btn-mobile-nav {
+	display: inline-block;
+		// display: initial;
+		// margin-right: 10px;
+	@media(min-width: $phone){
+		height: 45px;
+		font-size: 14px;
+		// margin-left: 100px;
+	}
+	@media(min-width: $tablet){
+		display: none;
+	}		
+	
+	&:hover {
+		background-color: $second-color-hover;
 	}
 }
 

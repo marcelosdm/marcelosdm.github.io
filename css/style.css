@@ -1,4 +1,4 @@
-.btn-contact, #btn-contact-nav {
+.btn-contact, #btn-contact-nav, #btn-mobile-nav {
   text-align: center;
   font-family: Open Sans;
   font-weight: 600;
@@ -38,6 +38,18 @@
     #btn-contact-nav {
       display: inline-block; } }
   #btn-contact-nav:hover {
+    background-color: #E2333D; }
+
+#btn-mobile-nav {
+  display: inline-block; }
+  @media (min-width: 480px) {
+    #btn-mobile-nav {
+      height: 45px;
+      font-size: 14px; } }
+  @media (min-width: 768px) {
+    #btn-mobile-nav {
+      display: none; } }
+  #btn-mobile-nav:hover {
     background-color: #E2333D; }
 
 .step-container, .benefits-container {
@@ -497,7 +509,7 @@ footer {
       transition: .5s;
       display: block;
       text-transform: uppercase;
-      font-family: 'Open Sans'; } }
+      font-family: "Open Sans"; } }
 
 @media (min-width: 769px) {
   .header-nav-link:hover {
@@ -546,6 +558,9 @@ footer {
   width: 30px;
   height: 30px;
   padding: 5%; }
+  @media (min-width: 768px) {
+    .button {
+      display: none; } }
   .button b {
     position: relative;
     display: block;
@@ -572,20 +587,23 @@ footer {
       display: none; } }
 
 .nav-mobile {
-  display: none;
-  transition: .15s ease-out; }
+  max-height: 0;
+  overflow: hidden; }
 
 .nav-mobile-show {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  justify-content: space-around;
   background-color: white;
   position: relative;
-  transition: all .5s;
-  color: black;
-  transition: .15s ease-out; }
+  transition: max-height .2s ease-out;
+  height: 350px;
+  max-height: 350px; }
 
 .mobile-nav-link {
-  color: black; }
+  color: #494949;
+  font-family: "Open Sans";
+  text-decoration: none;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

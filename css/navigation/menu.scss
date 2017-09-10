@@ -12,12 +12,12 @@
 	display: none;
 	@media(min-width: $tablet){
 		padding: 15px;
-		color: #494949;
+		color: $feat-grey;
 		text-decoration: none;
 		transition: .5s;
 		display: block;
 		text-transform: uppercase;
-		font-family: 'Open Sans';
+		font-family: $body-font;
 	}
 }
 
@@ -79,6 +79,10 @@
 	width: 30px;
 	height: 30px;
 	padding: 5%;
+
+	@media (min-width: $tablet) {
+        display: none;
+    }
 	
 	b {
 	  position: relative;
