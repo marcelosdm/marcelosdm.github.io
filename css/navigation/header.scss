@@ -7,11 +7,11 @@
 	border-bottom: solid $main-color;
 	z-index: 1;
 	transition: all .3s;
+	position: fixed;
 	
 	@media(min-width: $tablet){
 		// width: 100%;
 		padding: 20px 10px;
-		position: fixed;
 	}
 }
 
