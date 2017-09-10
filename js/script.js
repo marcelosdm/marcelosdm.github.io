@@ -2,7 +2,14 @@ $(document).ready(function(){
 
 	$('.button').on('click', function() {
 		$(this).toggleClass('open');
-	  })
+		$('#nav-mobile').toggleClass('nav-mobile nav-mobile-show')
+	});
+	  
+	// $(window).resize(function() {
+	// 	if($(window).width() >= '600') {
+	// 		$('header > nav').css('display', 'block');
+	// 	}
+	// })
 	
 	$('.parallax').parallax();
 

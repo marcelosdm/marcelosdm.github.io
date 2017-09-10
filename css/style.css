@@ -545,7 +545,7 @@ footer {
   overflow: hidden;
   width: 30px;
   height: 30px;
-  padding: 5px; }
+  padding: 5%; }
   .button b {
     position: relative;
     display: block;
@@ -559,9 +559,33 @@ footer {
     transform: rotate(42deg);
     transform-origin: left; }
   .button.open b:nth-child(2) {
-    left: -120%; }
+    left: -420%; }
   .button.open b:last-child {
     transform: rotate(-42deg);
     transform-origin: left; }
+
+.sliding-panel-content {
+  display: none;
+  position: static; }
+  @media (min-width: 768px) {
+    .sliding-panel-content {
+      display: none; } }
+
+.nav-mobile {
+  display: none;
+  transition: .15s ease-out; }
+
+.nav-mobile-show {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  transition: all .5s;
+  color: black;
+  transition: .15s ease-out; }
+
+.mobile-nav-link {
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */

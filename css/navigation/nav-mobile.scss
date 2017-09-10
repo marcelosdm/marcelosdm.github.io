@@ -1,0 +1,19 @@
+.nav-mobile {
+    display: none;
+    transition: .15s ease-out;
+}
+
+.nav-mobile-show {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    transition: all .5s;
+    color: black;
+    transition: .15s ease-out;
+}
+
+.mobile-nav-link {
+    color: black;
+}
