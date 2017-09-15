@@ -8,6 +8,7 @@
 	z-index: 1;
 	transition: all .3s;
 	position: fixed;
+	top: 0;
 	
 	@media(min-width: $tablet){
 		// width: 100%;

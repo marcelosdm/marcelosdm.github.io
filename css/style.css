@@ -468,7 +468,8 @@ footer {
   border-bottom: solid #3379BF;
   z-index: 1;
   transition: all .3s;
-  position: fixed; }
+  position: fixed;
+  top: 0; }
   @media (min-width: 768px) {
     .mainHeader {
       padding: 20px 10px; } }
