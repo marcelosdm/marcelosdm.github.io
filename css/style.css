@@ -30,7 +30,7 @@
 
 #btn-contact-nav {
   display: none; }
-  @media (min-width: 480px) {
+  @media (min-width: 425px) {
     #btn-contact-nav {
       height: 45px;
       font-size: 14px; } }
@@ -42,7 +42,7 @@
 
 #btn-mobile-nav {
   display: inline-block; }
-  @media (min-width: 480px) {
+  @media (min-width: 425px) {
     #btn-mobile-nav {
       height: 45px;
       font-size: 14px; } }
@@ -329,7 +329,7 @@ p {
 
 .section_info {
   padding: 5%; }
-  @media (min-width: 480px) {
+  @media (min-width: 425px) {
     .section_info {
       padding: 10%; } }
   @media (min-width: 768px) {
@@ -341,7 +341,7 @@ a {
 
 .benefits-item {
   padding: 20px 10px 0 0; }
-  @media (min-width: 480px) {
+  @media (min-width: 425px) {
     .benefits-item {
       width: 30%; } }
   .benefits-item h3 {
@@ -403,11 +403,11 @@ a {
   width: 280px;
   text-align: center;
   line-height: 100%;
-  margin-top: 0; }
-  @media (min-width: 480px) {
+  margin-top: 100px;
+  width: 100%; }
+  @media (min-width: 425px) {
     #slogan {
-      font-size: 35px;
-      width: 100%; } }
+      font-size: 35px; } }
   @media (min-width: 768px) {
     #slogan {
       font-size: 54px;
@@ -415,7 +415,8 @@ a {
       width: 780px;
       color: #494949;
       hyphens: auto;
-      line-height: 1.25em; } }
+      line-height: 1.25em;
+      margin-top: 0; } }
 
 .feature {
   color: #3379BF; }
@@ -463,7 +464,7 @@ footer {
 .mainHeader {
   width: 100%;
   padding: 20px 0;
-  height: 60px;
+  height: 45px;
   background-color: #fff;
   border-bottom: solid #3379BF;
   z-index: 1;
@@ -472,7 +473,8 @@ footer {
   top: 0; }
   @media (min-width: 768px) {
     .mainHeader {
-      padding: 20px 10px; } }
+      padding: 20px 10px;
+      height: 60px; } }
 
 @media (min-width: 768px) {
   .header_fixed {

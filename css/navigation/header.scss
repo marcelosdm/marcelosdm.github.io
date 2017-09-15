@@ -2,7 +2,7 @@
 .mainHeader{
 	width: 100%;
 	padding: 20px 0;
-	height: 60px;
+	height: 45px;
 	background-color: #fff;
 	border-bottom: solid $main-color;
 	z-index: 1;
@@ -13,6 +13,7 @@
 	@media(min-width: $tablet){
 		// width: 100%;
 		padding: 20px 10px;
+		height: 60px;
 	}
 }
 
