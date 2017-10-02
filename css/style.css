@@ -458,8 +458,11 @@ a {
 footer {
   background-color: #494949;
   padding: 20px 0;
-  text-align: center;
-  color: #fff; }
+  text-align: center; }
+
+footer p {
+  color: #fff;
+  font-size: 1em; }
 
 .mainHeader {
   width: 100%;
