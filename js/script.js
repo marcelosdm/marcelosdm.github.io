@@ -15,17 +15,17 @@ $(document).ready(function(){
 
 	$('a.tooltip').mouseover(function(){
 		var texto = $(this).attr('data-tooltip');
-		$(this).children('.text_tooltip').html(texto);
-		$(this).children('.text_tooltip').css('opacity', '1');
+		// $(this).children('.text_tooltip').html(texto);
+		// $(this).children('.text_tooltip').css('opacity', '1');
 	});
 
-	$('a.tooltip').mouseout(function(){
-		$(this).children('.text_tooltip').css('opacity', '0');
-	});
+	// $('a.tooltip').mouseout(function(){
+	// 	$(this).children('.text_tooltip').css('opacity', '0');
+	// });
 
-	$('.text_tooltip').mouseover(function(e){
-		e.stopPropagation();
-	});
+	// $('.text_tooltip').mouseover(function(e){
+	// 	e.stopPropagation();
+	// });
 
 	var page = $('html, body');
 	$('a.tooltip').click(function(){
