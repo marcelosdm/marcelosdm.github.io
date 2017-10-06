@@ -457,12 +457,18 @@ a {
 
 footer {
   background-color: #494949;
-  padding: 20px 0;
-  text-align: center; }
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 footer p {
   color: #fff;
-  font-size: 1em; }
+  font-size: 1em;
+  text-align: center; }
+
+.copy {
+  font-size: 0.75em; }
 
 .mainHeader {
   width: 100%;
