@@ -1,6 +1,6 @@
 footer {
-	background-color: $feat-grey;
-	padding: 20px;
+	background-color: #729ECA;
+	padding: 10px;
 	// height: 470px;
 	display: flex;
 	flex-direction: column;
@@ -15,6 +15,31 @@ footer p {
 	text-align: center;
 }
 
-.copy {
+.foot-links {
+	margin-bottom: 40px;
+}
+
+.foot-links p {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin: 10px 0 10px 0;
+}
+
+.foot-contact p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.foot-social {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 40px 0 40px;
+
+}
+
+.copy p{
 	font-size: 0.75em;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
