@@ -1,32 +1,20 @@
 $(document).ready(function(){
 
+	// Open and close mobile menu
 	$('.button').on('click', function() {
 		$(this).toggleClass('open');
 		$('#nav-mobile').toggleClass('nav-mobile nav-mobile-show')
 	});
-	  
-	// $(window).resize(function() {
-	// 	if($(window).width() >= '600') {
-	// 		$('header > nav').css('display', 'block');
-	// 	}
-	// })
-	
+
+	$('.mobile-nav-link').on('click', function() {
+		$('.button').toggleClass('open');
+		$('#nav-mobile').toggleClass('nav-mobile nav-mobile-show')
+	});
+		  
+	// Activates the parallax effect
 	$('.parallax').parallax();
 
-	$('a.tooltip').mouseover(function(){
-		var texto = $(this).attr('data-tooltip');
-		// $(this).children('.text_tooltip').html(texto);
-		// $(this).children('.text_tooltip').css('opacity', '1');
-	});
-
-	// $('a.tooltip').mouseout(function(){
-	// 	$(this).children('.text_tooltip').css('opacity', '0');
-	// });
-
-	// $('.text_tooltip').mouseover(function(e){
-	// 	e.stopPropagation();
-	// });
-
+	// animates page transition when moving to another section
 	var page = $('html, body');
 	$('a.tooltip').click(function(){
 		page.animate({
@@ -34,20 +22,8 @@ $(document).ready(function(){
 		}, 500);
 		return false;
 	});
-	// $('.header-nav-link').click(function(){
-	// 	page.animate({
-	// 		scrollTop: $( $.attr(this, 'href') ).offset().top
-	// 	}, 500);
-	// 	return false
-	// });
 
-	// $('.nav-mobile').mouseover(function(){
-	// 	$('.btn-more-itens').addClass('btn-more-show');
-	// });
-	// $('.nav-mobile').mouseout(function(){
-	// 	$('.btn-more-itens').removeClass('btn-more-show');
-	// });
-
+	// Fix the header when the page is scrolled
 	$(document).scroll(function(){
 		var topWindow = $(window).scrollTop();
 		if(topWindow > 60) {
