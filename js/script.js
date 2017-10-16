@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$('#nav-mobile').toggleClass('nav-mobile nav-mobile-show')
 	});
 
-	$('.mobile-nav-link').on('click', function() {
+	$('.tooltip').on('click', function() {
 		$('.button').toggleClass('open');
 		$('#nav-mobile').toggleClass('nav-mobile nav-mobile-show')
 	});
