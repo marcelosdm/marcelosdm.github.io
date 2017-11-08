@@ -334,16 +334,20 @@ p {
       padding: 10%; } }
   @media (min-width: 768px) {
     .section_info {
-      padding: 60px 60px; } }
+      padding: 60px 20px; } }
 
 a {
   text-decoration: none; }
 
 .benefits-item {
   padding: 20px 10px 0 0; }
-  @media (min-width: 425px) {
+  @media (width: 768px) {
     .benefits-item {
+      flex-grow: 2;
       width: 30%; } }
+  @media (min-width: 375px) {
+    .benefits-item {
+      margin-left: 30px; } }
   .benefits-item h3 {
     display: inline-flex;
     font-size: 20px;
@@ -396,7 +400,11 @@ a {
     .parallax-container {
       height: 500px; }
       .parallax-container p {
-        margin-top: 380px; } }
+        margin-top: 380px;
+        font-size: 2em; } }
+  @media (min-width: 992px) {
+    .parallax-container p {
+      font-size: 2.5em; } }
 
 #slogan {
   font-size: 30px;
