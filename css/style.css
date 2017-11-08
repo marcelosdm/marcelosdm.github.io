@@ -340,7 +340,8 @@ a {
   text-decoration: none; }
 
 .benefits-item {
-  padding: 20px 10px 0 0; }
+  padding: 20px 10px 0 0;
+  margin-left: 5%; }
   @media (width: 768px) {
     .benefits-item {
       flex-grow: 2;
