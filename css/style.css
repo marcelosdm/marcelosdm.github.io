@@ -154,11 +154,11 @@ form label, form input, form textarea {
   color: white; }
 
 .logo {
-  width: 115px;
+  width: 105px;
   transition: all .3s; }
   @media (min-width: 768px) {
     .logo {
-      width: 150px; } }
+      width: 130px; } }
 
 .logo_fixed {
   width: 85px;
@@ -511,6 +511,7 @@ footer p {
   top: 0; }
   @media (min-width: 768px) {
     .mainHeader {
+      width: 95%;
       padding: 20px 10px;
       height: 60px; } }
 
