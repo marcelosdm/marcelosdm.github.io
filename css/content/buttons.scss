@@ -21,8 +21,12 @@
 	width: 100%;
 	
 	@media(min-width: $tablet) {
-		margin: 50px auto 10px;
+		margin: 50px auto 10px 250px;
 		width: 250px;
+	}
+
+	@media(min-width: 1024px) {
+		margin: 50px auto 10px 400px;
 	}
 
 	@media(min-width: $desktop) {

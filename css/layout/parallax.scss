@@ -43,6 +43,9 @@
 		letter-spacing: 4px;
 		line-height: 40px;
 	}
+	@media(width: $tablet){
+		width: 800px;
+	}
 	@media(min-width: $tablet){
 		height: 500px;
 		p {

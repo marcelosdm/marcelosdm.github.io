@@ -5,6 +5,10 @@
 	flex-wrap: wrap;
 	// background-color: silver;
 	
+	@media(min-width: $tablet){
+		width: 100%;
+	}
+
 	p {
 		font-size: 15px;
 		text-align: justify;

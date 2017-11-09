@@ -20,8 +20,11 @@
   width: 100%; }
   @media (min-width: 768px) {
     .btn-contact {
-      margin: 50px auto 10px;
+      margin: 50px auto 10px 250px;
       width: 250px; } }
+  @media (min-width: 1024px) {
+    .btn-contact {
+      margin: 50px auto 10px 400px; } }
   @media (min-width: 992px) {
     .btn-contact {
       width: 200px; } }
@@ -57,6 +60,9 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap; }
+  @media (min-width: 768px) {
+    .step-container, .benefits-container {
+      width: 100%; } }
   .step-container p, .benefits-container p {
     font-size: 15px;
     text-align: justify;
@@ -397,6 +403,9 @@ a {
     /*word-spacing: 3px;*/
     letter-spacing: 4px;
     line-height: 40px; }
+  @media (width: 768px) {
+    .parallax-container {
+      width: 800px; } }
   @media (min-width: 768px) {
     .parallax-container {
       height: 500px; }
@@ -511,9 +520,12 @@ footer p {
   top: 0; }
   @media (min-width: 768px) {
     .mainHeader {
-      width: 95%;
       padding: 20px 10px;
-      height: 60px; } }
+      height: 60px;
+      width: 780px; } }
+  @media (min-width: 992px) {
+    .mainHeader {
+      width: 100%; } }
 
 @media (min-width: 768px) {
   .header_fixed {

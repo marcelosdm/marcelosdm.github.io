@@ -11,9 +11,12 @@
 	top: 0;
 	
 	@media(min-width: $tablet){
-		width: 95%;
 		padding: 20px 10px;
 		height: 60px;
+		width: 780px;
+	}
+	@media(min-width: $desktop){
+		width: 100%;
 	}
 }
 
