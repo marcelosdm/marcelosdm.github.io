@@ -22,11 +22,9 @@
     .btn-contact {
       margin: 50px auto 10px 250px;
       width: 250px; } }
-  @media (min-width: 1024px) {
-    .btn-contact {
-      margin: 50px auto 10px 400px; } }
   @media (min-width: 992px) {
     .btn-contact {
+      margin: 50px auto 10px;
       width: 200px; } }
   .btn-contact:hover {
     background-color: #E2333D; }

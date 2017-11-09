@@ -25,14 +25,11 @@
 		width: 250px;
 	}
 
-	@media(min-width: 1024px) {
-		margin: 50px auto 10px 400px;
-	}
-
 	@media(min-width: $desktop) {
+		margin: 50px auto 10px;
 		width: 200px;
 	}
-
+	
 	&:hover {
 		background-color: $second-color-hover;
 	}
