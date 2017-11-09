@@ -292,7 +292,7 @@ h2.header {
   margin: 10px 0 15px 0; }
   @media (min-width: 768px) {
     h2.header {
-      margin: 20px 0 30px 0; } }
+      margin: 20px 0 30px 10px; } }
 
 p {
   font-family: "Open Sans";
@@ -332,7 +332,7 @@ p {
   @media (min-width: 425px) {
     .section_info {
       padding: 10%; } }
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
     .section_info {
       padding: 60px 20px; } }
 
