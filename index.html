@@ -148,31 +148,42 @@
 			<div class="row container">
 				<h2 class="header">Fale Conosco</h2>
 				<p>Entre em contato pelo telefone <span class="feat-reverse">(16) 91234 5678</span>, ou se preferir preencha o formulário abaixo.</p>
-				<!-- <p>Preencha nosso formulário de contato, ou se preferir, entre em contato pelo nosso telefone:</p> -->
+				<div style="display:none;" id="thankyou_message">
+					<p id="sent-message">Mensagem enviada com sucesso! <br>Em breve entraremos em contato!</p>
+				</div>
 			</div>
 			<div class="contact-container">
 				<div class="contact-item">
-					<form method="post" id="gform"
+					<form method="post" id="gform" data-email="example@email.net"
 					action="https://script.google.com/macros/s/AKfycbzh83P4Rog5kgtiaOuVSvzG0EXg2ictdzjOjdLwkFyk9-ntYk0/exec">
-						<div class="form-group">
-							<label for="name">Nome</label>
-							<input type="text" name="name" placeholder="Nome Completo" required>
-						</div>
-						<div class="form-group">
-							<label for="phone">Telefone</label>
-							<input type="tel" name="phone" placeholder="(16) 12345-6789" required>
-						</div>
-						<div class="form-group">
-							<label for="email">Email</label>
-							<input type="email" name="email" placeholder="seu@email.com" required>
-						</div>
-						<div class="form-group">
-							<label for="message">Mensagem</label>
-							<textarea name="message" id="message" placeholder="Escreva aqui sua mensagem!" required></textarea>
-						</div>
+
+						<fieldset class="form-group">
+							<label for="name">Nome: </label>
+							<input id="name" name="name" placeholder="Nome Completo" required/>
+						</fieldset>
+						
+						<fieldset class="form-group">
+							<label for="phone">Telefone: </label>
+							<input id="phone" name="phone" placeholder="(16) 12345-6789" required/>
+						</fieldset>
+						
+						<fieldset class="form-group">
+							<label for="email"><em>Your</em> Email Address:</label>
+							<input id="email" name="email" type="email" value=""
+							required placeholder="seu@email.com"/>
+							<span id="email-invalid" style="display:none">
+								Must be a valid email address</span>
+						</fieldset>
+						
+						<fieldset class="form-group">
+							<label for="message">Mensagem: </label>
+							<textarea id="message" name="message" rows="10"
+							placeholder="Escreva aqui sua mensagem!" required></textarea>
+						</fieldset>
+						  
+
 						<input type="submit" value="Enviar" class="btn-contact">
 					</form>
-					
 					<!-- <p><img src="img/icons/ic_phone_black_24px.svg">Tel/WhatsApp: (16) 91234-1234</p>
 						<p><img src="img/icons/ic_email_black_24px.svg">Email: hello@youcan.com</p> -->
 					</div>
@@ -214,5 +225,8 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="js/parallax.js"></script>
 	<script src="js/script.js"></script>
+	<script data-cfasync="false" type="text/javascript"
+	src="js/form-submission-handler.js"></script>
+
 </body>
 </html>

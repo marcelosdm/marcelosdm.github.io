@@ -44,3 +44,10 @@ p {
 		font-size: 2.1em;
 	}
 }
+
+#sent-message {
+	font-family: $body-font;
+	color: white;
+	background-color: $main-color;
+	padding: 20px;
+}

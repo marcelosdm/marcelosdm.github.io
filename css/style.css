@@ -321,6 +321,12 @@ p {
     .paragrafo:first-letter {
       font-size: 2.1em; } }
 
+#sent-message {
+  font-family: "Open Sans";
+  color: white;
+  background-color: #3379BF;
+  padding: 20px; }
+
 @media (min-width: 768px) {
   * {
     margin: 0 auto;
