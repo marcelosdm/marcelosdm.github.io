@@ -15,12 +15,11 @@ main {
 .section_info {
 	padding: 5%;
 	
-	@media(min-width: $phone){
+	@media(min-width: $phone) and (max-width: $tablet){
 		padding: 10%;
 	}
 	@media(min-width: $tablet) and (max-width: 1024px ){
 		padding: 60px 20px;
-		
 	}
 }
 a {
