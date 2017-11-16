@@ -125,7 +125,8 @@
     width: 300px; } }
 
 .form-group {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border: none; }
 
 form label {
   display: inline-block;
