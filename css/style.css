@@ -52,6 +52,66 @@
   #btn-mobile-nav:hover {
     background-color: #E2333D; }
 
+.contact-container {
+  display: block; }
+  @media (min-witdh: 992px) {
+    .contact-container {
+      display: flex; } }
+
+.contact-infos {
+  display: none; }
+  @media (min-width: 992px) {
+    .contact-infos {
+      display: block; } }
+
+@media (min-width: 768px) {
+  .contact-item {
+    display: block;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 355px; } }
+
+@media (min-width: 768px) {
+  #gform {
+    padding: 10px;
+    width: 300px; } }
+
+.form-group {
+  margin-bottom: 20px;
+  border: none; }
+
+form label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #494949; }
+form input {
+  height: 40px; }
+form textarea {
+  height: 100px; }
+form input, form textarea {
+  display: block;
+  width: 95%;
+  font-size: 17px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 0 10px; }
+form label, form input, form textarea {
+  font-family: "Open Sans"; }
+
+#contact p {
+  font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  text-align: center; }
+
+.feat-reverse {
+  background-color: #3379BF;
+  color: white; }
+
 .step-container, .benefits-container {
   width: 90%;
   display: flex;
@@ -108,54 +168,6 @@
 
 .btn-more-show {
   opacity: 1; }
-
-@media (min-width: 768px) {
-  .contact-container {
-    display: block;
-    padding: 20px;
-    background-color: whitesmoke;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    width: 355px; } }
-
-@media (min-width: 768px) {
-  #gform {
-    padding: 10px;
-    width: 300px; } }
-
-.form-group {
-  margin-bottom: 20px;
-  border: none; }
-
-form label {
-  display: inline-block;
-  margin-bottom: 5px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #494949; }
-form input {
-  height: 40px; }
-form textarea {
-  height: 100px; }
-form input, form textarea {
-  display: block;
-  width: 95%;
-  font-size: 17px;
-  border-radius: 4px;
-  border: 1px solid #ddd;
-  padding: 0 10px; }
-form label, form input, form textarea {
-  font-family: "Open Sans"; }
-
-#contact p {
-  font-size: 19px;
-  line-height: 25px;
-  margin-bottom: 25px;
-  text-align: center; }
-
-.feat-reverse {
-  background-color: #3379BF;
-  color: white; }
 
 .logo {
   width: 105px;

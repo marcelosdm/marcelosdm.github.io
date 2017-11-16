@@ -1,4 +1,20 @@
 .contact-container {
+	display: block;
+
+	@media(min-witdh: $desktop){
+		display: flex;
+	}
+}
+
+.contact-infos {
+	display: none;
+
+	@media(min-width: $desktop) {
+		display: block;
+	}
+}
+
+.contact-item {
 	@media(min-width: $tablet){
 		display: block;
 		padding: 20px;
