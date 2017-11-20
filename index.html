@@ -62,12 +62,12 @@
 					<!-- <h2 class="header">YouCan Language Courses</h2> -->
 					<p id="slogan">Aprenda <span class="feature">Inglês</span> e cultura de maneira prazerosa. <br>
 						Agende já uma <span class="feature">aula</span> experimental sem compromisso e venha conhecer nosso <span class="feature">diferencial!</span> </p>
+					</div>
 				</div>
-			</div>
-			<div class="parallax-container">
-				<div class="parallax"><img src="img/london.jpeg"></div>
-				<p>Programas eficazes, com foco em conversação e fluência</p>
-			</div>
+				<div class="parallax-container">
+					<div class="parallax"><img src="img/london.jpeg"></div>
+					<p>Programas eficazes, com foco em conversação e fluência</p>
+				</div>
 			</section>
 			<section>
 				<div id="about" class="section_info">
@@ -132,10 +132,10 @@
 							<p>Foco em conversação e fluência. Ambiente profissional e amigável.</p>
 						</div>
 					</div>						
+					<a href="#contact" class="tooltip">
+						<button class="btn-contact">Seja um aluno</button>
+					</a>
 				</div>
-				<a href="#contact" class="tooltip">
-					<button class="btn-contact">Seja um aluno</button>
-				</a>
 			</div>
 		</div>
 		<div class="parallax-container">
@@ -172,22 +172,22 @@
 					<fieldset class="form-group">
 						<label for="name">Nome: </label>
 						<input id="name" name="name" placeholder="Nome Completo" required/>
+					</fieldset>
+					
+					<fieldset class="form-group">
+						<label for="phone">Telefone: </label>
+						<input id="phone" name="phone" placeholder="(16) 12345-6789" required/>
+					</fieldset>
+					
+					<fieldset class="form-group">
+						<label for="email">Email:</label>
+						<input id="email" name="email" type="email" value=""
+						required placeholder="seu@email.com"/>
+						<span id="email-invalid" style="display:none">
+							Deve ser um endereço de email válido</span>
 						</fieldset>
 						
 						<fieldset class="form-group">
-							<label for="phone">Telefone: </label>
-							<input id="phone" name="phone" placeholder="(16) 12345-6789" required/>
-						</fieldset>
-						
-						<fieldset class="form-group">
-							<label for="email">Email:</label>
-							<input id="email" name="email" type="email" value=""
-							required placeholder="seu@email.com"/>
-							<span id="email-invalid" style="display:none">
-								Deve ser um endereço de email válido</span>
-							</fieldset>
-							
-							<fieldset class="form-group">
 							<label for="message">Mensagem: </label>
 							<textarea id="message" name="message" rows="10"
 							placeholder="Escreva aqui sua mensagem!" required></textarea>
@@ -198,12 +198,12 @@
 					</form>
 					<!-- <p><img src="img/icons/ic_phone_black_24px.svg">Tel/WhatsApp: (16) 91234-1234</p>
 						<p><img src="img/icons/ic_email_black_24px.svg">Email: hello@youcan.com</p> -->
-					<div style="display:none;" id="thankyou_message">
-						<p id="sent-message">Mensagem enviada com sucesso! <br>Em breve entraremos em contato!</p>
+						<div style="display:none;" id="thankyou_message">
+							<p id="sent-message">Mensagem enviada com sucesso! <br>Em breve entraremos em contato!</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 			<!-- <div class="parallax-container">
 				<div class="parallax"><img src="img/contact.jpeg"></div>
 			</div> -->
@@ -242,6 +242,6 @@
 	<script src="js/script.js"></script>
 	<script data-cfasync="false" type="text/javascript"
 	src="js/form-submission-handler.js"></script>
-
+	
 </body>
 </html>

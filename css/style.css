@@ -366,8 +366,8 @@ a {
   margin-left: 5%; }
   @media (width: 768px) {
     .benefits-item {
-      flex-grow: 2;
-      width: 30%; } }
+      width: 30%;
+      flex-grow: 2; } }
   @media (min-width: 768px) {
     .benefits-item {
       align-self: baseline; } }
