@@ -52,17 +52,17 @@
   #btn-mobile-nav:hover {
     background-color: #E2333D; }
 
+btn-form {
+  margin: 50px 10px 10px; }
+
 .contact-container {
   display: block; }
-  @media (min-witdh: 992px) {
-    .contact-container {
-      display: flex; } }
 
 .contact-infos {
-  display: none; }
-  @media (min-width: 992px) {
+  text-align: left; }
+  @media (min-width: 768px) {
     .contact-infos {
-      display: block; } }
+      width: 80%; } }
 
 @media (min-width: 768px) {
   .contact-item {
@@ -71,16 +71,17 @@
     background-color: whitesmoke;
     border: 1px solid #ddd;
     border-radius: 6px;
-    width: 355px; } }
+    width: 80%; } }
 
 @media (min-width: 768px) {
   #gform {
     padding: 10px;
-    width: 300px; } }
+    width: 100%; } }
 
 .form-group {
   margin-bottom: 20px;
-  border: none; }
+  border: none;
+  font-family: "Open Sans"; }
 
 form label {
   display: inline-block;
@@ -95,22 +96,29 @@ form textarea {
 form input, form textarea {
   display: block;
   width: 95%;
-  font-size: 17px;
   border-radius: 4px;
-  border: 1px solid #ddd;
-  padding: 0 10px; }
+  border: 1px solid #ddd; }
 form label, form input, form textarea {
+  padding: 0 10px;
+  font-size: 17px;
   font-family: "Open Sans"; }
 
 #contact p {
   font-size: 19px;
   line-height: 25px;
-  margin-bottom: 25px;
-  text-align: center; }
+  margin-bottom: 10px; }
+
+.contact-info p {
+  text-align: left; }
 
 .feat-reverse {
   background-color: #3379BF;
   color: white; }
+
+.feat-mail {
+  color: #3379BF;
+  text-decoration: underline;
+  font-weight: bolder; }
 
 .step-container, .benefits-container {
   width: 90%;

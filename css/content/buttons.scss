@@ -21,7 +21,6 @@
 	width: 100%;
 	
 	@media(min-width: $tablet) {
-		// margin: 50px auto 10px 25px;
 		width: 250px;
 	}
 
@@ -37,12 +36,9 @@
 
 #btn-contact-nav {
 	display: none;
-		// display: initial;
-		// margin-right: 10px;
 	@media(min-width: $phone){
 		height: 45px;
 		font-size: 14px;
-		// margin-left: 100px;
 	}
 	@media(min-width: $tablet){
 		display: inline-block;
@@ -71,3 +67,6 @@
 	}
 }
 
+btn-form {
+	margin: 50px 10px 10px;
+}

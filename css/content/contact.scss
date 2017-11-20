@@ -1,16 +1,12 @@
 .contact-container {
 	display: block;
 
-	@media(min-witdh: $desktop){
-		display: flex;
-	}
 }
 
 .contact-infos {
-	display: none;
-
-	@media(min-width: $desktop) {
-		display: block;
+	text-align: left;
+	@media(min-width: $tablet) {
+		width: 80%;
 	}
 }
 
@@ -18,26 +14,24 @@
 	@media(min-width: $tablet){
 		display: block;
 		padding: 20px;
-		// margin-bottom: 20px;
 		background-color:whitesmoke;
 		border: 1px solid $border;
 		border-radius: 6px;
-		width: 355px;
+		width: 80%;
 	}
 }
 
 #gform {
     @media(min-width: $tablet){
 		padding: 10px;
-        width: 300px;
-        // display: flex;
-		// flex-wrap: wrap;
+        width: 100%;
     }
 }
 
 .form-group {
 	margin-bottom: 20px;
 	border:none;
+	font-family: $body-font;
 }
 
 form {
@@ -51,7 +45,6 @@ form {
 
 	input {
 		height: 40px;
-		// padding: 12px 16px;
 	}
 
 	textarea {
@@ -61,13 +54,13 @@ form {
 	input, textarea {
 		display: block;
 		width: 95%;
-		font-size: 17px;
 		border-radius: 4px;	
 		border: 1px solid $border;
-		padding: 0 10px;
 	}
-
+	
 	label, input, textarea {
+		padding: 0 10px;
+		font-size: 17px;
 		font-family: $body-font;
 	}
 }
@@ -76,8 +69,11 @@ form {
 #contact p {
 	font-size: 19px;
 	line-height: 25px;
-	margin-bottom: 25px;
-	text-align: center;
+	margin-bottom: 10px;
+}
+
+.contact-info p {
+	text-align: left;
 }
 
 .feat-reverse {
@@ -85,4 +81,9 @@ form {
 	color: white;
 }
 
+.feat-mail {
+	color: $main-color;
+	text-decoration: underline;
+	font-weight: bolder;
+}
 
