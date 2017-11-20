@@ -1,4 +1,4 @@
-.btn-contact, #btn-contact-nav, #btn-mobile-nav {
+.btn-contact, #btn-contact-nav, #btn-mobile-nav, .btn-form {
   text-align: center;
   font-family: Open Sans;
   font-weight: 600;
@@ -12,21 +12,28 @@
   cursor: pointer;
   text-shadow: none; }
 
-.btn-contact {
+.btn-contact, .btn-form {
   display: block;
   height: 60px;
   font-size: 18px;
   margin: 20px auto 10px;
   width: 100%; }
   @media (min-width: 768px) {
-    .btn-contact {
+    .btn-contact, .btn-form {
       width: 250px; } }
   @media (min-width: 992px) {
-    .btn-contact {
-      margin: 50px auto 10px;
+    .btn-contact, .btn-form {
       width: 200px; } }
-  .btn-contact:hover {
+  .btn-contact:hover, .btn-form:hover {
     background-color: #E2333D; }
+
+@media (min-width: 992px) {
+  .btn-contact {
+    margin: 50px auto 10px; } }
+
+@media (min-width: 992px) {
+  .btn-form {
+    margin: 50px 25px 10px; } }
 
 #btn-contact-nav {
   display: none; }
@@ -51,9 +58,6 @@
       display: none; } }
   #btn-mobile-nav:hover {
     background-color: #E2333D; }
-
-btn-form {
-  margin: 50px 10px 10px; }
 
 .contact-container {
   display: block; }

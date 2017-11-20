@@ -1,4 +1,4 @@
-.btn-contact, #btn-contact-nav, #btn-mobile-nav {
+.btn-contact, #btn-contact-nav, #btn-mobile-nav, .btn-form {
 	text-align: center;
 	font-family: Open Sans;
 	font-weight: 600;
@@ -13,7 +13,7 @@
 	text-shadow: none;
 }
 
-.btn-contact {
+.btn-contact, .btn-form {
 	display: block;
 	height: 60px;
 	font-size: 18px;
@@ -23,14 +23,23 @@
 	@media(min-width: $tablet) {
 		width: 250px;
 	}
-
+	
 	@media(min-width: $desktop) {
-		margin: 50px auto 10px;
 		width: 200px;
 	}
 	
 	&:hover {
 		background-color: $second-color-hover;
+	}
+}
+.btn-contact{
+	@media(min-width: $desktop) {
+		margin: 50px auto 10px;
+	}
+}
+.btn-form {
+	@media(min-width: $desktop) {
+		margin: 50px 25px 10px;
 	}
 }
 
@@ -67,6 +76,3 @@
 	}
 }
 
-btn-form {
-	margin: 50px 10px 10px;
-}
