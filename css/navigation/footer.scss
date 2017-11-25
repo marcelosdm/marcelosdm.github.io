@@ -6,24 +6,32 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 
+	p {
+		
+		color: #fff;
+		font-size: 1em;
+		text-align: center;
+	}	
 }
 
-footer p {
-	
-	color: #fff;
-	font-size: 1em;
-	text-align: center;
-}
 
 .foot-links {
 	margin-bottom: 40px;
+		
+	@media(min-width: $tablet) {
+		display: flex;	
+	}
+	p {
+		font-size: 1.2em;
+		text-transform: uppercase;
+		margin: 10px 0 10px 0;
+		@media(min-width: $tablet) {
+			flex-direction: row;
+			margin: 10px 20px;		
+		}
+	}
 }
 
-.foot-links p {
-	font-size: 1.2em;
-	text-transform: uppercase;
-	margin: 10px 0 10px 0;
-}
 
 .foot-contact p {
 	padding: 0px;
@@ -32,10 +40,21 @@ footer p {
 
 .foot-social {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 30px 40px 0 40px;
 
+	@media(min-width: $tablet) {
+		// flex-direction: row;
+		width: 250px;
+		align-self: center;
+	}
+
+	a {
+		margin: 0px;
+	}
+
 }
+
 
 .copy p{
 	font-size: 0.75em;
