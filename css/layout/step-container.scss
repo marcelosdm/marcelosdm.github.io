@@ -1,12 +1,13 @@
 .step-item {
 	text-align: center;
 	
+	
 	h3 {
-		margin-left: 20px;
+		// margin-left: 20px;
 	}
 
 	p {
-		margin-left: 10%;
+		// margin-left: 10%;
 	}
 
 	@media(min-width: $tablet){
@@ -16,6 +17,6 @@
 
 .step-item img {
 	width: 100px;
-	padding-left: 10%;
+	// padding-left: 10%;
 }
 

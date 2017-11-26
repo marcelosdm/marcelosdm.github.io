@@ -126,18 +126,22 @@ form label, form input, form textarea {
 
 .step-container, .benefits-container {
   width: 90%;
+  margin: 0 5%;
   display: flex;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: space-around; }
   @media (min-width: 768px) {
     .step-container, .benefits-container {
-      width: 100%; } }
+      width: 100%;
+      margin: 0; } }
   .step-container p, .benefits-container p {
     font-size: 15px;
     text-align: justify;
     hyphens: auto;
     line-height: 30px;
-    width: 90%; }
+    width: 90%;
+    margin: 0 5% 5%; }
     @media (min-width: 768px) {
       .step-container p, .benefits-container p {
         width: 300px; } }
@@ -469,17 +473,12 @@ a {
 
 .step-item {
   text-align: center; }
-  .step-item h3 {
-    margin-left: 20px; }
-  .step-item p {
-    margin-left: 10%; }
   @media (min-width: 768px) {
     .step-item {
       padding: 20px; } }
 
 .step-item img {
-  width: 100px;
-  padding-left: 10%; }
+  width: 100px; }
 
 .text_tooltip {
   background-color: #5a5858;
