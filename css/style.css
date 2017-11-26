@@ -124,28 +124,6 @@ form label, form input, form textarea {
   text-decoration: underline;
   font-weight: bolder; }
 
-.step-container, .benefits-container {
-  width: 90%;
-  margin: 0 5%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  @media (min-width: 768px) {
-    .step-container, .benefits-container {
-      width: 100%;
-      margin: 0; } }
-  .step-container p, .benefits-container p {
-    font-size: 15px;
-    text-align: justify;
-    hyphens: auto;
-    line-height: 30px;
-    width: 90%;
-    margin: 0 5% 5%; }
-    @media (min-width: 768px) {
-      .step-container p, .benefits-container p {
-        width: 300px; } }
-
 .nav-mobile {
   position: fixed;
   z-index: 2;
@@ -373,27 +351,37 @@ a {
     .section_info {
       padding: 60px 20px; } }
 
-.benefits-item {
-  padding: 0 10px 20px 0;
-  margin-left: 5%; }
-  @media (width: 768px) {
-    .benefits-item {
-      width: 30%;
-      flex-grow: 2; } }
+.benefits-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 5%; }
   @media (min-width: 768px) {
-    .benefits-item {
-      align-self: baseline; } }
-  @media (min-width: 375px) {
-    .benefits-item {
-      margin-left: 30px; } }
-  .benefits-item h3 {
-    display: inline-flex;
-    font-size: 20px;
-    width: 280px; }
-  .benefits-item img {
-    width: 30px;
-    padding-right: 10px;
-    color: #e2444e; }
+    .benefits-container {
+      width: 90%;
+      margin: 0 5%; } }
+  .benefits-container p {
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 0 10px; }
+
+@media (min-width: 768px) {
+  .benefits-item {
+    width: 40%;
+    margin: 0 5%;
+    align-self: baseline; } }
+@media (min-width: 1200px) {
+  .benefits-item {
+    width: 30%;
+    margin: 0; } }
+.benefits-item h3 {
+  display: inline-flex;
+  font-size: 20px; }
+.benefits-item img {
+  width: 30px;
+  padding-right: 10px;
+  color: #e2444e; }
 
 .parallax {
   position: absolute;
@@ -470,6 +458,28 @@ a {
 
 .feature {
   color: #3379BF; }
+
+.step-container {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  @media (min-width: 768px) {
+    .step-container {
+      width: 100%;
+      margin: 0; } }
+  .step-container p {
+    font-size: 15px;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 30px;
+    width: 90%;
+    margin: 0 5% 5%; }
+    @media (min-width: 768px) {
+      .step-container p {
+        width: 300px; } }
 
 .step-item {
   text-align: center; }
