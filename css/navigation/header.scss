@@ -7,7 +7,7 @@
 	border-bottom: solid $main-color;
 	z-index: 1;
 	transition: all .3s;
-	position: fixed;
+	position: initial;
 	top: 0;
 	
 	@media(min-width: $tablet){
@@ -32,6 +32,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	
+	@media(min-width: $tablet) {
+		margin: 0 15px;
+	}
+
+	@media(min-width: $desktop) {
+		margin: 0 50px;
+	}
 }
 
 .icon {
