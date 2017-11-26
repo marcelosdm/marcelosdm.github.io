@@ -510,6 +510,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  @media (min-width: 768px) {
+    footer {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around; } }
   footer p {
     color: #fff;
     font-size: 1em;
@@ -519,7 +524,8 @@ footer {
   margin-bottom: 40px; }
   @media (min-width: 768px) {
     .foot-links {
-      display: flex; } }
+      display: flex;
+      flex-direction: column; } }
   .foot-links p {
     font-size: 1.2em;
     text-transform: uppercase;
@@ -549,6 +555,12 @@ footer {
   margin-top: 20px;
   margin-bottom: 0px;
   padding-bottom: 0px; }
+
+#logo-filter {
+  filter: opacity(60%) grayscale(100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
 
 .mainHeader {
   width: 100%;

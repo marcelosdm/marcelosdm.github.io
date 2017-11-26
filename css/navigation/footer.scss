@@ -1,13 +1,17 @@
 footer {
 	background-color: #729ECA;
 	padding: 10px;
-	// height: 470px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 
+	@media(min-width: $tablet) {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+
 	p {
-		
 		color: #fff;
 		font-size: 1em;
 		text-align: center;
@@ -19,6 +23,7 @@ footer {
 		
 	@media(min-width: $tablet) {
 		display: flex;	
+		flex-direction: column;
 	}
 	p {
 		font-size: 1.2em;
@@ -54,9 +59,16 @@ footer {
 
 }
 
-.copy p{
+.copy p {
 	font-size: 0.75em;
 	margin-top: 20px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+}
+
+#logo-filter {
+	filter: opacity(60%) grayscale(100%);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
