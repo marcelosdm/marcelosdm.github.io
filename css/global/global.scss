@@ -6,10 +6,8 @@
 	}
 }
 
-main {
-	@media(min-width: $tablet){
-		padding-top: 120px
-	}
+a {
+	text-decoration: none;
 }
 
 .section_info {
@@ -18,10 +16,7 @@ main {
 	@media(min-width: $phone) and (max-width: $tablet){
 		padding: 10%;
 	}
-	@media(min-width: $tablet) and (max-width: 1024px ){
+	@media(width: $tablet){
 		padding: 60px 20px;
 	}
-}
-a {
-	text-decoration: none;
 }

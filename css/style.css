@@ -357,21 +357,17 @@ p {
     font-weight: 400;
     line-height: 26px; } }
 
-@media (min-width: 768px) {
-  main {
-    padding-top: 120px; } }
+a {
+  text-decoration: none; }
 
 .section_info {
   padding: 5%; }
   @media (min-width: 425px) and (max-width: 768px) {
     .section_info {
       padding: 10%; } }
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (width: 768px) {
     .section_info {
       padding: 60px 20px; } }
-
-a {
-  text-decoration: none; }
 
 .benefits-item {
   padding: 0 10px 20px 0;
@@ -449,10 +445,9 @@ a {
 
 #slogan {
   font-size: 30px;
-  width: 280px;
   text-align: center;
   line-height: 100%;
-  margin-top: 100px;
+  margin-top: 30px;
   width: 100%; }
   @media (min-width: 425px) {
     #slogan {
@@ -460,12 +455,17 @@ a {
   @media (min-width: 768px) {
     #slogan {
       font-size: 54px;
-      line-height: 100%;
-      width: 780px;
       color: #494949;
-      hyphens: auto;
       line-height: 1.25em;
       margin-top: 0; } }
+  @media (min-width: 992px) {
+    #slogan {
+      width: 80%;
+      margin: 0 10%; } }
+  @media (min-width: 1200px) {
+    #slogan {
+      width: 70%;
+      margin: 0 15%; } }
 
 .feature {
   color: #3379BF; }

@@ -1,10 +1,8 @@
 #slogan {
-
 	font-size: 30px;
-	width: 280px;
 	text-align: center;
 	line-height: 100%;
-	margin-top: 100px;
+	margin-top: 30px;
 	width: 100%;
 
 	@media(min-width: $phone) {
@@ -13,16 +11,21 @@
 		
 	@media(min-width: $tablet) {
 		font-size: 54px;
-		// text-align: center;
-		line-height: 100%;
-		width: 780px;
 		color: $feat-grey;
-		// margin-top: 0;
-		// padding-top: 0;
-		hyphens: auto;
 		line-height: 1.25em;
 		margin-top: 0;
 	}
+
+	@media(min-width: $desktop) {
+		width: 80%;
+		margin: 0 10%;
+	}
+
+	@media(min-width: $wide-screen) {
+		width: 70%;
+		margin: 0 15%;
+	}
+
 }
 
 .feature {
