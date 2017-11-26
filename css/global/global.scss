@@ -12,11 +12,4 @@ a {
 
 .section_info {
 	padding: 5%;
-	
-	@media(min-width: $phone) and (max-width: $tablet){
-		padding: 10%;
-	}
-	@media(width: $tablet){
-		padding: 60px 20px;
-	}
 }

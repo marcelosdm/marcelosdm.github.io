@@ -344,12 +344,6 @@ a {
 
 .section_info {
   padding: 5%; }
-  @media (min-width: 425px) and (max-width: 768px) {
-    .section_info {
-      padding: 10%; } }
-  @media (width: 768px) {
-    .section_info {
-      padding: 60px 20px; } }
 
 .benefits-container {
   display: flex;
@@ -570,9 +564,6 @@ footer {
     .mainHeader {
       padding: 20px 10px;
       height: 60px;
-      width: 780px; } }
-  @media (min-width: 992px) {
-    .mainHeader {
       width: 100%; } }
 
 @media (min-width: 768px) {
