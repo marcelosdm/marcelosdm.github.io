@@ -430,9 +430,6 @@ a {
     /*word-spacing: 3px;*/
     letter-spacing: 4px;
     line-height: 40px; }
-  @media (width: 768px) {
-    .parallax-container {
-      width: 800px; } }
   @media (min-width: 768px) {
     .parallax-container {
       height: 500px; }
