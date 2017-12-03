@@ -56,7 +56,7 @@
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: $second-color;
     color: white;
 }
 
@@ -64,6 +64,10 @@
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: $second-color;
     color: white;
+}
+
+#open-modal, #open-modal-nav {
+    cursor: pointer;
 }

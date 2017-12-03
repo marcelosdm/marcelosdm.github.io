@@ -274,7 +274,7 @@ form label, form input, form textarea {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #e2444e;
   color: white; }
 
 .modal-body {
@@ -282,8 +282,11 @@ form label, form input, form textarea {
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #e2444e;
   color: white; }
+
+#open-modal, #open-modal-nav {
+  cursor: pointer; }
 
 h3 {
   font-family: "Open Sans";

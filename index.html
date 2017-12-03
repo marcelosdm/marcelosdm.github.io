@@ -29,6 +29,7 @@
 				<a href="#top" class="header-nav-link tooltip">Home</a>
 				<a href="#about" class="header-nav-link tooltip">Sobre Nós</a>
 				<a href="#courses" class="header-nav-link tooltip">Benefícios</a>
+				<span class="header-nav-link tooltip" id="open-modal-nav">Certificações</span>
 				<a href="#contact" class="header-nav-link tooltip">Contato</a>
 			</nav>
 			
@@ -110,7 +111,25 @@
 							<h3><img src="img/icons/ic_school_black_24px.svg">Professora qualificada</h3>
 							<p>Além de formação acadêmica, possui conhecimento prático no idioma. <span id="open-modal" class="feature">Saiba mais</span></p>
 						</div>
-						
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+							
+							<!-- Modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<span class="close">&times;</span>
+									<h2>Modal Header</h2>
+								</div>
+								<div class="modal-body">
+									<p>Some text in the Modal Body</p>
+									<p>Some other text...</p>
+								</div>
+								<div class="modal-footer">
+									<h3>Modal Footer</h3>
+								</div>
+							</div>
+							
+						</div>
 						<div class="benefits-item">
 							<h3><img src="img/icons/ic_schedule_black_24px.svg">Aproveite seu tempo</h3>
 							<p>Abordagens e programas focados e eficazes – sem perda de tempo!</p>
@@ -176,57 +195,57 @@
 						</fieldset>
 						<input type="submit" value="Enviar" class="btn-form">
 					</form>
-						<div style="display:none;" id="thankyou_message">
-							<p id="sent-message">Mensagem enviada com sucesso! <br>Em breve entraremos em contato!</p>
-						</div>
+					<div style="display:none;" id="thankyou_message">
+						<p id="sent-message">Mensagem enviada com sucesso! <br>Em breve entraremos em contato!</p>
 					</div>
-					<br>
-					<p class="contact-infos">Se preferir, nosso telefone é: <span class="feat-reverse">(16) 9999-9999</span> (segunda à sexta, das 8h às 20h).</p>
 				</div>
+				<br>
+				<p class="contact-infos">Se preferir, nosso telefone é: <span class="feat-reverse">(16) 9999-9999</span> (segunda à sexta, das 8h às 20h).</p>
 			</div>
+		</div>
+	</section>
+</main>
+
+<footer>
+	<div id="logo-filter">
+		<img src="img/logo-gray-scale.png" class="logo">
+		<p>POWERED BY</p>				
+	</div>
+	<div>
+		<section class="foot-links">
+			<p>Home</p>
+			<p>Sobre Nós</p>
+			<p>Benefícios</p>
+			<p>A Escola</p>
+			<p>Contato</p>
+		</section>	
+	</div>
+	<div>
+		<section class="foot-contact">
+			<p>Tel: (16) 91234 5678</p>
+			<p>Email: contact@youcan.com</p>
 		</section>
-	</main>
-	
-	<footer>
-		<div id="logo-filter">
-			<img src="img/logo-gray-scale.png" class="logo">
-			<p>POWERED BY</p>				
-		</div>
-		<div>
-			<section class="foot-links">
-				<p>Home</p>
-				<p>Sobre Nós</p>
-				<p>Benefícios</p>
-				<p>A Escola</p>
-				<p>Contato</p>
-			</section>	
-		</div>
-		<div>
-			<section class="foot-contact">
-				<p>Tel: (16) 91234 5678</p>
-				<p>Email: contact@youcan.com</p>
-			</section>
-			<section class="foot-social">
-				<a href="#"><img src="img/icons/facebook.svg" alt=""></a>
-				<a href="#"><img src="img/icons/instagram.svg" alt=""></a>
-				<a href="#"><img src="img/icons/whatsapp.svg" alt=""></a>
-			</section>
-			<section class="copy">
-				<p> &copy;
-					<script>
-						document.write(new Date().getFullYear());
-					</script>
-					MMelo Websites
-				</p>
-			</section>
-		</div>
-	</footer>
-	
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="js/parallax.js"></script>
-	<script src="js/script.js"></script>
-	<script data-cfasync="false" type="text/javascript"
-	src="js/form-submission-handler.js"></script>
-	
+		<section class="foot-social">
+			<a href="#"><img src="img/icons/facebook.svg" alt=""></a>
+			<a href="#"><img src="img/icons/instagram.svg" alt=""></a>
+			<a href="#"><img src="img/icons/whatsapp.svg" alt=""></a>
+		</section>
+		<section class="copy">
+			<p> &copy;
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+				MMelo Websites
+			</p>
+		</section>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/script.js"></script>
+<script src="js/modal.js"></script>
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+
 </body>
 </html>
