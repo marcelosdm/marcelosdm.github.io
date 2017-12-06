@@ -57,10 +57,14 @@
 .modal-header {
     padding: 2px 16px;
     background-color: $second-color;
-    color: white;
+    h3 {
+        color: white;
+    }
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+    padding: 2px 16px;
+}
 
 .modal-footer {
     padding: 2px 16px;
@@ -71,3 +75,4 @@
 #open-modal, #open-modal-nav {
     cursor: pointer;
 }
+

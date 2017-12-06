@@ -274,8 +274,9 @@ form label, form input, form textarea {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #e2444e;
-  color: white; }
+  background-color: #e2444e; }
+  .modal-header h3 {
+    color: white; }
 
 .modal-body {
   padding: 2px 16px; }
@@ -288,24 +289,30 @@ form label, form input, form textarea {
 #open-modal, #open-modal-nav {
   cursor: pointer; }
 
-h3 {
+h2, h3, h4, h5 {
   font-family: "Open Sans";
-  font-size: 1.4em;
   font-weight: 600;
-  color: #494949;
-  margin: 20px 0 20px 0; }
+  color: #494949; }
 
 h2.header {
-  font-family: "Open Sans";
-  font-weight: 600;
   font-size: 35px;
-  color: #494949;
   text-transform: uppercase;
   text-align: center;
   margin: 10px 0 15px 0; }
   @media (min-width: 768px) {
     h2.header {
       margin: 20px 0 30px 0px; } }
+
+h3 {
+  font-size: 1.4em;
+  margin: 20px 0 20px 0; }
+
+h4 {
+  font-size: 1.15em;
+  margin: 10px 0 10px 0; }
+
+h5 {
+  font-size: 1em; }
 
 p {
   font-family: "Open Sans";
@@ -335,6 +342,9 @@ p {
   color: white;
   background-color: #3379BF;
   padding: 20px; }
+
+.certificado {
+  font-weight: bold; }
 
 @media (min-width: 768px) {
   * {
