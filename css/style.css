@@ -366,13 +366,18 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column; }
+  @media (min-width: 768px) {
+    .about-img {
+      flex-direction: row; } }
   .about-img img {
     padding: 0 5%;
     width: 100%;
     zoom: 0.35; }
     @media (min-width: 768px) {
       .about-img img {
-        padding: 5%; } }
+        padding: 0;
+        margin: 1px;
+        width: 45%; } }
 
 .benefits-container {
   display: flex;
