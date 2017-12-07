@@ -1,4 +1,4 @@
-.parallax {
+.parallax, .parallax-about {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -6,14 +6,23 @@
 	bottom: 0;
 	z-index: -1;
 	img {
-		display: none;
 		position: absolute;
-		left: 50%;
 		bottom: 0;
 		min-width: 100%;
 		min-height: 100%;
 		transform: translateX(-50%);
 		zoom: 0.65;
+	}
+}
+
+.parallax {
+	left: 50%;
+}
+
+.parallax-about {
+	left: 0;
+	@media(min-width: $phoneM) {
+		left: 50%;
 	}
 }
 
@@ -27,11 +36,7 @@
 	height: 500px;
 }
 
-.parallax-about {
-	height: 250px;
-}
-
-.parallax-container, .parallax-about {
+.parallax-container {
 	position: relative;
 	overflow: hidden;
 	display: flex;
