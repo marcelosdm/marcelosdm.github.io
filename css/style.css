@@ -426,7 +426,7 @@ a {
     transform: translateX(-50%);
     zoom: 0.65; }
 
-.parallax {
+.parallax img {
   left: 50%; }
 
 .parallax-about div {
