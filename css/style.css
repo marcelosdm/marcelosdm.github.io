@@ -358,6 +358,9 @@ a {
 .section_info {
   padding: 5%; }
 
+.about-container p {
+  font-size: 20px; }
+
 .about-img {
   display: flex;
   align-items: center; }
@@ -733,7 +736,8 @@ footer {
   width: 100%;
   transition: max-height .2s ease-out;
   height: 350px;
-  max-height: 350px; }
+  max-height: 350px;
+  z-index: 1; }
 
 .mobile-nav-link {
   color: #494949;
