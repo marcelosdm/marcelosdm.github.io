@@ -424,10 +424,10 @@ a {
 .parallax {
   left: 50%; }
 
-.parallax-about {
+.parallax-about div {
   left: 0; }
   @media (min-width: 375px) {
-    .parallax-about {
+    .parallax-about div {
       left: 50%; } }
 
 #parallax-contact img {
@@ -436,13 +436,16 @@ a {
 .parallax-container {
   height: 500px; }
 
-.parallax-container {
+.parallax-about {
+  height: 300px; }
+
+.parallax-container, .parallax-about {
   position: relative;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .parallax-container p {
+  .parallax-container p, .parallax-about p {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -455,11 +458,11 @@ a {
     letter-spacing: 4px;
     line-height: 40px; }
   @media (min-width: 768px) {
-    .parallax-container p {
+    .parallax-container p, .parallax-about p {
       margin-top: 380px;
       font-size: 2em; } }
   @media (min-width: 992px) {
-    .parallax-container p {
+    .parallax-container p, .parallax-about p {
       font-size: 2.5em; } }
 
 #slogan {

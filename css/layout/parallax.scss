@@ -19,7 +19,7 @@
 	left: 50%;
 }
 
-.parallax-about {
+.parallax-about div {
 	left: 0;
 	@media(min-width: $phoneM) {
 		left: 50%;
@@ -36,7 +36,11 @@
 	height: 500px;
 }
 
-.parallax-container {
+.parallax-about {
+	height: 300px;
+}
+
+.parallax-container, .parallax-about {
 	position: relative;
 	overflow: hidden;
 	display: flex;
