@@ -24,9 +24,16 @@
 }
 
 .parallax-container {
+	height: 500px;
+}
+
+.parallax-about {
+	height: 250px;
+}
+
+.parallax-container, .parallax-about {
 	position: relative;
 	overflow: hidden;
-	height: 500px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -47,7 +54,7 @@
 		// width: 800px;
 	}
 	@media(min-width: $tablet){
-		height: 500px;
+		// height: 500px;
 		p {
 			margin-top: 380px;
 			font-size: 2em;

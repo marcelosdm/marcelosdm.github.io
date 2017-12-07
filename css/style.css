@@ -358,6 +358,13 @@ a {
 .section_info {
   padding: 5%; }
 
+.about-img {
+  display: flex;
+  align-items: center; }
+  .about-img img {
+    zoom: 0.35;
+    padding: 5%; }
+
 .benefits-container {
   display: flex;
   flex-flow: row wrap;
@@ -411,13 +418,18 @@ a {
   zoom: 0.35; }
 
 .parallax-container {
+  height: 500px; }
+
+.parallax-about {
+  height: 250px; }
+
+.parallax-container, .parallax-about {
   position: relative;
   overflow: hidden;
-  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .parallax-container p {
+  .parallax-container p, .parallax-about p {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -430,13 +442,11 @@ a {
     letter-spacing: 4px;
     line-height: 40px; }
   @media (min-width: 768px) {
-    .parallax-container {
-      height: 500px; }
-      .parallax-container p {
-        margin-top: 380px;
-        font-size: 2em; } }
+    .parallax-container p, .parallax-about p {
+      margin-top: 380px;
+      font-size: 2em; } }
   @media (min-width: 992px) {
-    .parallax-container p {
+    .parallax-container p, .parallax-about p {
       font-size: 2.5em; } }
 
 #slogan {
