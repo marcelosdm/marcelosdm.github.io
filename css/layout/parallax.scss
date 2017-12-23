@@ -18,12 +18,12 @@
 .parallax {
 	img{
 		left: 50%;
-
 	}
 }
 
 .parallax-about div {
 	left: 0;
+	zoom: .35;
 	@media(min-width: $phoneM) {
 		left: 50%;
 	}
@@ -40,7 +40,16 @@
 }
 
 .parallax-about {
-	height: 300px;
+	height: 200px;
+	@media(min-width: $tablet) {
+		height: 350px;
+	}
+	@media(min-width: $desktop) {
+		height: 460px;
+	}
+	@media(min-width: $wide-screen) {
+		height: 500px;
+	}
 }
 
 .parallax-container, .parallax-about {
@@ -62,11 +71,7 @@
 		letter-spacing: 4px;
 		line-height: 40px;
 	}
-	@media(width: $tablet){
-		// width: 800px;
-	}
 	@media(min-width: $tablet){
-		// height: 500px;
 		p {
 			margin-top: 380px;
 			font-size: 2em;

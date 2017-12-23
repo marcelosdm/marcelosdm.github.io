@@ -374,11 +374,12 @@ a {
   .about-img img {
     padding: 0 5%;
     width: 100%;
-    zoom: 0.35; }
+    zoom: 0.35;
+    margin: 2.5% 0; }
     @media (min-width: 768px) {
       .about-img img {
         padding: 0;
-        margin: 1px;
+        margin: 2.5%;
         width: 45%; } }
 
 .benefits-container {
@@ -432,7 +433,8 @@ a {
   left: 50%; }
 
 .parallax-about div {
-  left: 0; }
+  left: 0;
+  zoom: .35; }
   @media (min-width: 375px) {
     .parallax-about div {
       left: 50%; } }
@@ -444,7 +446,16 @@ a {
   height: 500px; }
 
 .parallax-about {
-  height: 300px; }
+  height: 200px; }
+  @media (min-width: 768px) {
+    .parallax-about {
+      height: 350px; } }
+  @media (min-width: 992px) {
+    .parallax-about {
+      height: 460px; } }
+  @media (min-width: 1200px) {
+    .parallax-about {
+      height: 500px; } }
 
 .parallax-container, .parallax-about {
   position: relative;
